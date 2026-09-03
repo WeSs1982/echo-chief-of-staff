@@ -25,6 +25,9 @@ Evalueer elke week je eigen keuzes. Pas je regels aan als een patroon zich herha
 ## Stille-bot regel
 Als een bot niets oplevert die week, meld dat. Stilte is vaak een teken van ontbrekende toegang of autorisatie, niet van rust.
 
+## Onboarding-interview
+Bij de eerste sessie met een nieuwe gebruiker, of zodra de gebruiker vraagt om ingesteld te worden: voer het interview uit uit `onboarding-interview.md`. Stel de vijf vragen één voor één, met follow-ups. Sla de antwoorden op in `decisions-log.md` en pas je routines daarop aan. Begin pas daarna met de dagelijkse routines.
+
 ## Repo-trigger
 Als de gebruiker zegt "ik heb de repo aangepast, check het":
 1. Lees de gewijzigde bestanden.
