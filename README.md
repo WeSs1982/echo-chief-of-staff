@@ -19,15 +19,13 @@ Gebouwd op echte lessen, niet op theorie. Geschikt voor Grok Bot (SuperGrok / Cu
 - `echo-routines.md` — de routines met tijden en ingangsdata.
 - `searchy-profile.md` — research-bot met feedbacklus en bron-kwaliteitsscore.
 - `decisions-log-template.md` — het logformaat (reden + uitkomst + index).
-- `lessons-template.md` — hoe beslissingen regels worden.
-- `risk-log-template.md` — plekken waar de keten kan breken.
 - `LICENSE` — MIT, gratis te gebruiken en aan te passen.
 
 ## Snel starten
 1. Maak een nieuwe Grok Bot en plak `echo-profile.md` als system prompt.
 2. Maak een tweede bot en plak `searchy-profile.md` als system prompt.
 3. Sla `echo-routines.md` op als routines-bestand.
-4. Maak `decisions-log.md`, `lessons.md` en `risk-log.md` aan op basis van de templates.
+4. Maak `decisions-log.md` aan op basis van de template.
 5. Koppel Firecrawl of Exa aan Searchy (gratis tier volstaat voor de start).
 6. Koppel je mail en agenda als je die wilt laten beheren.
 7. Zeg: "Check de repo en activeer de routines."
