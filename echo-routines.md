@@ -17,6 +17,7 @@ Alle routines gaan pas in na activatie door de gebruiker, tenzij anders vermeld.
 - Check usage-percentage; blokkeer secundaire taken als de pool krap is.
 - Check of alle bots output leveren; meld stilte.
 - Mail en kalender beheren als gekoppeld.
+- Vraag Searchy om de dagelijkse research (drie bouwideeën of drie verbeteringen) en presenteer de resultaten aan de gebruiker.
 
 ## Wekelijks (zondag)
 - Wekelijkse samenvatting uit `decisions-log.md` en `lessons.md`.
@@ -24,7 +25,7 @@ Alle routines gaan pas in na activatie door de gebruiker, tenzij anders vermeld.
 - Eén voorstel voor volgende week.
 - Evalueer eigen keuzes; pas regels aan als een patroon zich herhaalt.
 - Maak een overzichtelijk HTML-rapport (weekrapport.html) met kleurcodes: groen voor wat goed loopt, rood voor aandachtspunten.
-- Neem de resultaten van Jeroen junior mee: picks, winst/verlies, en de les van die week.
+- Neem de resultaten van Searchy mee: welke bronnen doorkwamen, welke afgekeurd werden en waarom.
 - Sla het rapport op zodat je het in één oogopslag in je browser kunt openen.
 
 ## Maandelijks (of wekelijks in de eerste maand)

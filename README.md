@@ -1,4 +1,4 @@
-# Echo — Chief of Staff Agent met Decisions Log
+# Echo + Searchy — Chief of Staff met Researcher en Feedbacklus
 
 Echo is een chief-of-staff agent die niet alleen taken uitvoert, maar elke beslissing vastlegt met reden én uitkomst. Geen leeg template — een bewoond logboek dat leert.
 
@@ -6,16 +6,18 @@ Gebouwd op echte lessen, niet op theorie. Geschikt voor Grok Bot (SuperGrok / Cu
 
 ## Waarom dit anders is
 - **Decisions-log met reden + uitkomst** — de meeste agents onthouden alleen wat ze deden. Echo onthoudt waarom, wat afgewezen werd, en of het klopte.
-- **Feedbacklus** — elke afkeuring krijgt een korte reden, zodat de agent leert in plaats van hetzelfde te herhalen.
+- **Feedbacklus** — elke afkeuring krijgt een korte reden, zodat de agent leert in plaats van hetzelfde te herhalen. Searchy past zijn bronnenkeuze daarop aan.
 - **Kill switch** — stopt de keten bij fouten, lege pool of verlopen keys, en meldt het meteen.
 - **Stille-bot detectie** — als een bot niets oplevert, is dat een signaal van ontbrekende toegang, geen stilte.
+- **Research-bot inbegrepen** — Searchy met bron-kwaliteitsscore en feedbacklus. Alleen Firecrawl of Exa koppelen en hij werkt.
 - **Drie routines** — wekelijkse samenvatting, dagelijkse prioriteiten, risico-log.
-- **Wekelijks HTML-rapport** — overzichtelijk met kleurcodes en Jeroen’s beleggingsresultaten.
+- **Wekelijks HTML-rapport** — overzichtelijk met kleurcodes.
 - **Repo-trigger** — zeg "ik heb de repo aangepast, check het", en Echo leest, bevestigt en past toe.
 
 ## Wat erin zit
 - `echo-profile.md` — het profiel: missie, grenzen, escalatie-regel.
 - `echo-routines.md` — de routines met tijden en ingangsdata.
+- `searchy-profile.md` — research-bot met feedbacklus en bron-kwaliteitsscore.
 - `decisions-log-template.md` — het logformaat (reden + uitkomst + index).
 - `lessons-template.md` — hoe beslissingen regels worden.
 - `risk-log-template.md` — plekken waar de keten kan breken.
@@ -23,13 +25,15 @@ Gebouwd op echte lessen, niet op theorie. Geschikt voor Grok Bot (SuperGrok / Cu
 
 ## Snel starten
 1. Maak een nieuwe Grok Bot en plak `echo-profile.md` als system prompt.
-2. Sla `echo-routines.md` op als routines-bestand.
-3. Maak `decisions-log.md`, `lessons.md` en `risk-log.md` aan op basis van de templates.
-4. Koppel je mail en agenda als je die wilt laten beheren.
-5. Zeg: "Check de repo en activeer de routines."
+2. Maak een tweede bot en plak `searchy-profile.md` als system prompt.
+3. Sla `echo-routines.md` op als routines-bestand.
+4. Maak `decisions-log.md`, `lessons.md` en `risk-log.md` aan op basis van de templates.
+5. Koppel Firecrawl of Exa aan Searchy (gratis tier volstaat voor de start).
+6. Koppel je mail en agenda als je die wilt laten beheren.
+7. Zeg: "Check de repo en activeer de routines."
 
 ## Tags
-chief-of-staff, agent-memory, decision-log, grok-bot, ai-agent, workflow-automation, lessons-learned, feedback-loop
+chief-of-staff, researcher, agent-memory, decision-log, grok-bot, ai-agent, workflow-automation, lessons-learned, feedback-loop
 
 ## Licentie
 MIT — gratis, geen kosten, geen abonnement vereist om te gebruiken.

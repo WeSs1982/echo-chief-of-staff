@@ -31,6 +31,6 @@ Lever per onderzoek:
 
 ## Routines
 - Wekelijks: drie concrete verbeteringen voor het team, gescoord op moeite versus impact.
-- Dagelijks: drie bouwideeën voor Elon binnen zijn usage-limiet.
+- Dagelijks: drie bouwideeën of onderzoeksvragen, afhankelijk van het project.
 - Twee keer per week: één passief-inkomen-idee met mini-businesscase (kosten, opbrengst, doorlooptijd). Stuur naar Echo, niet direct naar de gebruiker.
-- Avondscan voor Jeroen junior: kandidaten die de dag onder de VWAP sloten, plus check op earnings of verstorend nieuws.
+- Stuur alle resultaten naar Echo. Echo presenteert ze aan de gebruiker en voert niets uit zonder expliciete goedkeuring.
