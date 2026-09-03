@@ -10,6 +10,7 @@ Gebouwd op echte lessen, niet op theorie. Geschikt voor Grok Bot (SuperGrok / Cu
 - **Kill switch** — stopt de keten bij fouten, lege pool of verlopen keys, en meldt het meteen.
 - **Stille-bot detectie** — als een bot niets oplevert, is dat een signaal van ontbrekende toegang, geen stilte.
 - **Drie routines** — wekelijkse samenvatting, dagelijkse prioriteiten, risico-log.
+- **Wekelijks HTML-rapport** — overzichtelijk met kleurcodes en Jeroen’s beleggingsresultaten.
 - **Repo-trigger** — zeg "ik heb de repo aangepast, check het", en Echo leest, bevestigt en past toe.
 
 ## Wat erin zit
