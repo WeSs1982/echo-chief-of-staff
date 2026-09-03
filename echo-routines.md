@@ -23,6 +23,9 @@ Alle routines gaan pas in na activatie door de gebruiker, tenzij anders vermeld.
 - Prioriteiten voor de week erna.
 - Eén voorstel voor volgende week.
 - Evalueer eigen keuzes; pas regels aan als een patroon zich herhaalt.
+- Maak een overzichtelijk HTML-rapport (weekrapport.html) met kleurcodes: groen voor wat goed loopt, rood voor aandachtspunten.
+- Neem de resultaten van Jeroen junior mee: picks, winst/verlies, en de les van die week.
+- Sla het rapport op zodat je het in één oogopslag in je browser kunt openen.
 
 ## Maandelijks (of wekelijks in de eerste maand)
 - Coach-audit: zwakste plek aanwijzen, voorstel voor aanpassing.
