@@ -74,3 +74,25 @@ De state-bestanden staan op de filesystem van de VM waar Echo draait. Die filesy
 - De enige zin die jij hoeft te zeggen is: "Check de repo en doe de update."
 - State-bestanden staan in een aparte map per project, zodat andere bots niet per ongeluk meelezen.
 - Als de VM-filesystem niet beschikbaar is of leeg, val terug op het handmatige protocol uit `echo-profile.md` en meld dat aan de gebruiker.
+
+## Zero-touch automatisering (Athena, geen actie van jou nodig)
+Dit is de laag die het systeem vloeiend laat lopen terwijl jij 70 uur werkt. Athena voert deze routines uit op de VM-filesystem. Jij hoeft alleen de eerste keer te bevestigen dat de routine actief is.
+
+**Wekelijkse audit (elke zondag 09:00 Europe/Amsterdam):**
+1. Activeer Athena (of Echo in coach-modus) op de VM.
+2. Lees `state/session-memory.md`, `state/decisions-log.md`, `state/risk-log.md`, `state/rejected-sources.md` en de laatste entry in `state/coach-audit.md`.
+3. Doorloop de vaste checklist hierboven. Check op bewijs in de logs, niet op beloften.
+4. Schrijf de audit append-only naar `state/coach-audit.md` in het vaste formaat (datum, 5 checks, zwakste plek, één voorstel).
+5. Als er een kill-switch incident of stilte is: log het meteen in `state/risk-log.md` en stuur een korte melding.
+6. Geen melding naar jou tenzij er een rood vlaggetje is (kill switch, lege pool, of protocol niet gevolgd). Dan: één zin in de chat of mail.
+
+**Tweewekelijkse profiel-review (elke tweede zondag 09:00 Europe/Amsterdam):**
+1. Lees de laatste twee audits plus recente decisions-log en session-memory.
+2. Identificeer terugkerende patronen.
+3. Schrijf concrete voorstellen naar `state/coach-audit.md` onder "Profiel-review".
+4. **Stop.** Geen profiel wijzigen zonder jouw ja. Stuur het voorstel als één bericht; jij antwoordt ja/nee.
+
+**Jouw enige actie:**
+- Eerste keer: bevestig in de chat "Athena-routine actief" of zeg "check de repo en doe de update". Daarna draait het vanzelf.
+- Bij een rood vlaggetje: antwoord in één zin. Geen wekelijkse review-sessie nodig.
+- Alles ouder dan vier weken in de logs wordt automatisch gecompact bij de wekelijkse audit.
