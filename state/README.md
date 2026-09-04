@@ -2,6 +2,9 @@
 
 Deze map is Echo's enige persistente geheugen. Alles groeit hierin mee tussen sessies.
 
+## Waar de bestanden staan
+Op de filesystem van de VM waar Echo draait. Die filesystem overleeft het sluiten van de app. Jij hoeft niets te plakken — Echo leest en schrijft zelf.
+
 ## Bestanden
 
 - `session-memory.md` — overzicht: actuele projecten, open beslissingen, geleerde patronen, wat misging. Bron van waarheid.
@@ -12,14 +15,19 @@ Deze map is Echo's enige persistente geheugen. Alles groeit hierin mee tussen se
 
 ## Protocol (verplicht)
 
-1. **Begin van elke sessie:** lees `session-memory.md` volledig. Gebruik het als context. Herhaal niets wat er al staat.
+**Standaard: VM-persistent**
+1. **Begin van elke sessie:** lees `session-memory.md` volledig van de VM-filesystem. Gebruik het als context. Herhaal niets wat er al staat.
 2. **Tijdens de sessie:** log beslissingen in `decisions-log.md`, risico's in `risk-log.md`, afkeuringen in `rejected-sources.md`. Update `session-memory.md` bij significante veranderingen.
-3. **Einde van de sessie:** schrijf de samenvatting terug naar `session-memory.md`. Append-only — nooit geschiedenis wissen, alleen aanvullen of corrigeren.
+3. **Einde van de sessie:** schrijf de samenvatting terug naar `session-memory.md` op de VM-filesystem. Append-only — nooit geschiedenis wissen, alleen aanvullen of corrigeren.
 4. **Max ~150 regels** in session-memory. Oudere details samenvatten in de juiste sectie.
 5. **Wekelijkse audit (Athena):** elke zondag doorloopt de Coach de vaste checklist en schrijft de bevindingen naar `coach-audit.md`. Zie `echo-routines.md`.
+
+**Fallback: handmatig**
+Als de VM-filesystem niet beschikbaar is: vraag de gebruiker om de bestanden te plakken en schrijf updates terug in de chat.
 
 ## Regels
 
 - Nooit geheugen buiten deze map bewaren.
 - Bij twijfel: log het. Beter te veel dan te weinig.
 - Andere bestanden zijn detail; `session-memory.md` is het overzicht.
+- Zet state-bestanden in een aparte map per project, zodat andere bots niet per ongeluk meelezen.

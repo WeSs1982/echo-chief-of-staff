@@ -13,12 +13,14 @@ Gebouwd op echte lessen, niet op theorie. Geschikt voor Grok Bot (SuperGrok / Cu
 - **Drie routines** — wekelijkse samenvatting, dagelijkse prioriteiten, risico-log.
 - **Wekelijks HTML-rapport** — overzichtelijk met kleurcodes.
 - **Repo-trigger** — zeg "ik heb de repo aangepast, check het", en Echo leest, bevestigt en past toe.
+- **VM-persistent geheugen** — de state-bestanden staan op de VM-filesystem. Jij hoeft niets te plakken; Echo leest en schrijft zelf. Zeg alleen: "Check de repo en doe de update."
 
 ## Wat erin zit
-- `echo-profile.md` — het profiel: missie, grenzen, escalatie-regel.
+- `echo-profile.md` — het profiel: missie, grenzen, escalatie-regel, geheugenprotocol.
 - `echo-routines.md` — de routines met tijden en ingangsdata.
 - `searchy-profile.md` — research-bot met feedbacklus en bron-kwaliteitsscore.
 - `decisions-log-template.md` — het logformaat (reden + uitkomst + index).
+- `state/` — Echo's persistente geheugen op de VM-filesystem.
 - `LICENSE` — MIT, gratis te gebruiken en aan te passen.
 
 ## Snel starten
@@ -28,7 +30,7 @@ Gebouwd op echte lessen, niet op theorie. Geschikt voor Grok Bot (SuperGrok / Cu
 4. Maak `decisions-log.md` aan op basis van de template.
 5. Koppel Firecrawl of Exa aan Searchy (gratis tier volstaat voor de start).
 6. Koppel je mail en agenda als je die wilt laten beheren.
-7. Zeg: "Check de repo en activeer de routines."
+7. Zeg: "Check de repo en doe de update." — Echo laadt het geheugen zelf van de VM-filesystem.
 
 ## Tags
 chief-of-staff, researcher, agent-memory, decision-log, grok-bot, ai-agent, workflow-automation, lessons-learned, feedback-loop
