@@ -26,18 +26,19 @@ Gebouwd op echte lessen, niet op theorie. Geschikt voor Grok Bot (SuperGrok / Cu
 - `state/locks.md` — de enige plek met actieve locks.
 - `state/` — Echo's persistente geheugen op de VM-filesystem.
   - `session-card.md` — verplicht kaartje per run.
-- `onboarding-interview.md` — vijf vragen om Echo meteen te kalibreren.
+- `onboarding-interview.md` — vijf vragen om Echo meteen te kalibreren, plus GitHub-account en connector als vereiste.
 - `LICENSE` — MIT, gratis te gebruiken en aan te passen.
 
 ## Snel starten
 1. Maak een nieuwe Grok Bot en plak `echo-profile.md` als system prompt.
 2. Maak een tweede bot en plak `searchy-profile.md` als system prompt.
 3. Sla `echo-routines.md` op als routines-bestand.
-4. Maak `decisions-log.md` aan op basis van de template.
+4. Maak `state/decisions-log.md` aan op basis van de template.
 5. Koppel Firecrawl of Exa aan Searchy (gratis tier volstaat voor de start).
 6. Koppel je mail en agenda als je die wilt laten beheren.
-7. **Belangrijk:** zeg tegen Echo: "Lees `VM-GEHEUGEN.md`. Clone de repo naar `/workspace/echo-chief-of-staff` als die map er nog niet is. Bevestig dat pull/push werkt." — Echo kloont zelf en houdt het ritme aan.
-8. Bevestig eenmaal: "Athena-routine actief." Daarna draait de audit en review vanzelf.
+7. **Vereist:** de gebruiker heeft een GitHub-account (gratis aanmaken via https://github.com/signup) én de GitHub-connector actief in de Grok Bot-instellingen. Zonder beide werkt het git-ritme niet.
+8. **Belangrijk:** zeg tegen Echo: "Lees `VM-GEHEUGEN.md`. Clone de repo naar `/workspace/echo-chief-of-staff` als die map er nog niet is. Bevestig dat pull/push werkt." — Echo kloont zelf en houdt het ritme aan.
+9. Bevestig eenmaal: "Athena-routine actief." Daarna draait de audit en review vanzelf.
 
 ## Tags
 chief-of-staff, researcher, agent-memory, decision-log, grok-bot, ai-agent, workflow-automation, lessons-learned, feedback-loop
