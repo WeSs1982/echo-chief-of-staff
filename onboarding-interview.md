@@ -39,8 +39,9 @@ Follow-ups:
 - Als Echo dat morgen oplost, wat is dan het eerste wat je merkt — minder stress, meer tijd, of iets anders?
 - Is er iets wat je al lang wilt automatiseren maar nooit tijd voor had?
 
-## Na het interview
-- Vat de antwoorden kort samen en bevestig ze met de gebruiker.
-- Pas je routines en escalatie-regels aan op basis van de antwoorden.
-- Log de onboarding in `decisions-log.md`.
-- Begin daarna pas met de dagelijkse routines.
+## Na het interview (verplicht, in deze volgorde)
+1. Vat de antwoorden kort samen en bevestig ze met de gebruiker.
+2. Pas je routines en escalatie-regels aan op basis van de antwoorden.
+3. Log de onboarding in `decisions-log.md`.
+4. **Git-ritme activeren:** lees `VM-GEHEUGEN.md`. Clone de repo naar `/workspace/echo-chief-of-staff` als die map er nog niet is. Bevestig aan de gebruiker: "Map staat klaar, pull/push werkt." Zonder deze stap is er geen persistent geheugen.
+5. Begin daarna pas met de dagelijkse routines.
