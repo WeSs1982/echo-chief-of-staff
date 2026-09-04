@@ -1,6 +1,6 @@
 # Decisions Log Template
 
-Gebruik dit formaat voor elke beslissing die Echo vastlegt. Kopieer de sectie hieronder naar `decisions-log.md` en vul hem in. Echo leest dit bestand om het logformaat te kennen.
+Formaat voor `state/decisions-log.md`. Compacte velden, geen dagboek.
 
 ---
 
@@ -15,18 +15,34 @@ Gebruik dit formaat voor elke beslissing die Echo vastlegt. Kopieer de sectie hi
 
 ---
 
+## Voorbeeld — goed
+
+**Beslissing:** bron X niet gebruiken voor weekoverzicht
+**Reden:** ouder dan 18 maanden, geen primaire data
+**Uitkomst:** Searchy leverde twee recentere bronnen
+**Bron:** Searchy
+**Status:** afgerond
+**Les:** actualiteit eerst scoren, daarna relevantie
+
+## Voorbeeld — slecht
+
+**Beslissing:** we gaan het anders doen
+**Reden:** voelde niet goed
+**Uitkomst:** —
+**Bron:** —
+**Status:** open
+**Les:** —
+
+(Te vaag. Geen waarom, geen uitkomst, Searchy kan hier niets van leren.)
+
 ## Index (compact)
 
 | Datum | Titel | Status | Les |
 |-------|-------|--------|-----|
 | YYYY-MM-DD | ... | ... | ... |
 
-## Regels voor Echo
-- Log elke niet-triviale beslissing, niet alleen de grote.
-- Bij afkeuring door de gebruiker: noteer de reden in één zin, zodat Searchy kan leren.
-- Update de uitkomst zodra die bekend is.
-- Houd het beknopt — dit is een geheugen, geen dagboek. Geen lange zinnen, alleen vaste velden.
-- **Compaction:** elke zondag, na de weekcheck, alles ouder dan twee weken samenvatten tot één alinea per thema. Ruwe entries blijven staan voor referentie, maar de samenvatting is wat Echo leest.
-- **Batch:** schrijf entries in batches (einde sessie of 1x/dag), niet na elke micro-actie. Uitzondering: kill-switch en hoge-ernst risico's → direct.
-- **Geen HTML:** nooit HTML of kleurcodes in logs of rapporten. Alleen markdown/tabellen.
-- **Rotatie:** na 50 entries, vat de oudste 25 samen in `session-memory.md` onder `## Archief`. Houd de actieve log onder ~50 regels.
+## Regels
+- Elke niet-triviale beslissing. Bij afkeuring: één zin waarom.
+- Batch: einde sessie of 1x/dag. Kill-switch en hoge-ernst → direct.
+- Geen HTML.
+- **Rotatie (canoniek, zie VM-GEHEUGEN.md):** na 50 entries de oudste 25 samenvatten in session-memory onder `## Archief`. Echo leest de samenvatting + laatste 7 dagen, niet de hele historie.
