@@ -23,8 +23,7 @@ Gebouwd op echte lessen, niet op theorie. Geschikt voor Grok Bot (SuperGrok / Cu
 - `searchy-profile.md` — research-bot met feedbacklus en bron-kwaliteitsscore.
 - `decisions-log-template.md` — het logformaat (reden + uitkomst + index).
 - `VM-GEHEUGEN.md` — **het ritme**: clone, pull, werk, session-kaart, push. Lees dit eerst bij onboarding.
-- `NU-VAN-KRACHT.md` — de enige plek met actieve locks. Andere bestanden verwijzen hierheen.
-- `scripty-fails.md` — levende fail-lijst (max tien regels) die Scripty vóór schrijven leest.
+- `state/locks.md` — de enige plek met actieve locks.
 - `state/` — Echo's persistente geheugen op de VM-filesystem.
   - `session-card.md` — verplicht kaartje per run.
 - `onboarding-interview.md` — vijf vragen om Echo meteen te kalibreren.
