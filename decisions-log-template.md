@@ -29,3 +29,4 @@ Gebruik dit formaat voor elke beslissing die Echo vastlegt. Kopieer de sectie hi
 - **Compaction:** elke zondag, na de weekcheck, alles ouder dan twee weken samenvatten tot één alinea per thema. Ruwe entries blijven staan voor referentie, maar de samenvatting is wat Echo leest.
 - **Batch:** schrijf entries in batches (einde sessie of 1x/dag), niet na elke micro-actie. Uitzondering: kill-switch en hoge-ernst risico's → direct.
 - **Geen HTML:** nooit HTML of kleurcodes in logs of rapporten. Alleen markdown/tabellen.
+- **Rotatie:** na 50 entries, vat de oudste 25 samen in `session-memory.md` onder `## Archief`. Houd de actieve log onder ~50 regels.
