@@ -14,6 +14,7 @@ Gebouwd op echte lessen, niet op theorie. Geschikt voor Grok Bot (SuperGrok / Cu
 - **Wekelijks HTML-rapport** — overzichtelijk met kleurcodes.
 - **Repo-trigger** — zeg "ik heb de repo aangepast, check het", en Echo leest, bevestigt en past toe.
 - **VM-persistent geheugen** — de state-bestanden staan op de VM-filesystem. Jij hoeft niets te plakken; Echo leest en schrijft zelf. Zeg alleen: "Check de repo en doe de update."
+- **Zero-touch Athena** — de coach-audit en profiel-review draaien automatisch op de VM. Jij hoeft niets te activeren. Stilte = het werkt; alleen bij rood vlaggetje krijg je een melding.
 
 ## Wat erin zit
 - `echo-profile.md` — het profiel: missie, grenzen, escalatie-regel, geheugenprotocol.
@@ -31,6 +32,7 @@ Gebouwd op echte lessen, niet op theorie. Geschikt voor Grok Bot (SuperGrok / Cu
 5. Koppel Firecrawl of Exa aan Searchy (gratis tier volstaat voor de start).
 6. Koppel je mail en agenda als je die wilt laten beheren.
 7. Zeg: "Check de repo en doe de update." — Echo laadt het geheugen zelf van de VM-filesystem.
+8. Bevestig eenmaal: "Athena-routine actief." Daarna draait de audit en review vanzelf.
 
 ## Tags
 chief-of-staff, researcher, agent-memory, decision-log, grok-bot, ai-agent, workflow-automation, lessons-learned, feedback-loop
