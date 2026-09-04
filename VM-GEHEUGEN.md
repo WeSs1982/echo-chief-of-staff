@@ -13,7 +13,7 @@ Dit bestand is de **enige bron van waarheid** voor hoe Echo zijn geheugen op de 
 1. **Pull** — `cd /workspace/echo-chief-of-staff && git pull`
 2. **Lezen** — `state/session-memory.md`, `state/decisions-log.md`, `state/risk-log.md`, `state/rejected-sources.md`
 3. **Werken** — taken, research, beslissingen
-4. **Schrijven** — beslissingen loggen, fails bijhouden, session-memory updaten
+4. **Schrijven** — beslissingen loggen, afkeuringen bijhouden, session-memory updaten
 5. **Push** — `git add . && git commit -m "..." && git push`
 
 Zonder push telt de run niet. Zonder pull begint Echo op een oude kopie.
@@ -33,7 +33,7 @@ Daarna het ritme hierboven. Bevestig kort aan de gebruiker: "Map staat klaar, pu
 Schrijf aan het einde van elke run naar `state/session-card.md`:
 
 - datum + wat er gedraaid heeft
-- PASS/FAIL op de kerntaken
+- PASS/FAIL op de kerntaken van dít project
 - jouw afwijzing in één zin (bij FAIL)
 - wat de volgende run anders doet
 - les promoveren: nee / kandidaat / lock
@@ -42,8 +42,8 @@ Geen kaartje = de run telt niet.
 
 ## Lock-regel
 
-- Afwijzing → één zin in Afwijzingen.
-- Tweede keer hetzelfde, of de gebruiker zegt "lock": één regel in `NU-VAN-KRACHT.md`.
+- Afwijzing → één zin in Afwijzingen (in `state/decisions-log.md`).
+- Tweede keer hetzelfde, of de gebruiker zegt "lock": één regel in `state/locks.md`.
 - Historie blijft historie. Geen lock zonder twee keer of expliciet "lock".
 
 ## Wat jij (de gebruiker) doet
