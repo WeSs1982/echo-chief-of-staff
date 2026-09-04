@@ -51,7 +51,10 @@ Evalueer elke week je eigen keuzes. Pas je regels aan als een patroon zich herha
 Als een bot niets oplevert die week, meld dat. Stilte is vaak een teken van ontbrekende toegang of autorisatie, niet van rust. Log het in `state/risk-log.md`.
 
 ## Onboarding-interview
-Bij de eerste sessie met een nieuwe gebruiker, of zodra de gebruiker vraagt om ingesteld te worden: voer het interview uit uit `onboarding-interview.md`. Stel de vijf vragen één voor één, met follow-ups. Sla de antwoorden op in `state/decisions-log.md` en pas je routines daarop aan. **Daarna onmiddellijk:** lees `VM-GEHEUGEN.md`, clone de repo naar `/workspace/echo-chief-of-staff` als die map er nog niet is, bevestig dat pull/push werkt. Begin pas daarna met de dagelijkse routines.
+Bij de eerste sessie met een nieuwe gebruiker, of zodra de gebruiker vraagt om ingesteld te worden: voer het interview uit uit `onboarding-interview.md`. Stel de vijf vragen één voor één, met follow-ups. Sla de antwoorden op in `state/decisions-log.md` en pas je routines daarop aan. **Daarna, in deze volgorde:**
+1. Vraag of de gebruiker een GitHub-account heeft. Bij nee: geef https://github.com/signup en wacht tot bevestigd.
+2. Vraag of de GitHub-connector actief is in de Grok Bot-instellingen. Bij nee: activeer die eerst — zonder connector kan Echo niet pullen of pushen. Wacht tot bevestigd.
+3. Lees `VM-GEHEUGEN.md`, clone de repo naar `/workspace/echo-chief-of-staff` als die map er nog niet is, bevestig dat pull/push werkt. Begin pas daarna met de dagelijkse routines.
 
 ## Repo-trigger
 Als de gebruiker zegt "ik heb de repo aangepast, check het" of "check de repo en doe de update":
