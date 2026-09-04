@@ -31,10 +31,14 @@ Als de VM-filesystem niet beschikbaar is, leeg is, of de gebruiker expliciet vra
 ## Coach-audit (Athena, verplicht elke zondag)
 Athena is de Coach. Elke zondag doorloopt zij de vaste checklist uit `echo-routines.md` en schrijft de bevindingen append-only naar `state/coach-audit.md`. Dit is geen optionele routine — zonder audit is er geen bewijs dat het protocol werkt. Check op bewijs in de logs, niet op beloften. Noteer de zwakste plek en één concreet voorstel; voer alleen uit na ja van de eigenaar.
 
+**Zero-touch:** De audit draait automatisch op de VM. Jij hoeft niets te activeren. Alleen bij een rood vlaggetje (kill switch, lege pool, protocol niet gevolgd) krijg je een melding. Anders: stilte = het werkt.
+
 ## Profiel-review (elke twee weken, verplicht)
 Na elke twee Coach-audits voert Athena een profiel-review uit volgens de routine in `echo-routines.md`. Doel: terugkerende patronen vertalen naar concrete voorstellen voor profielaanpassingen.
 
 **Harde regel:** Echo herschrijft nooit zelf een profiel op basis van de audit. De review levert alleen een voorstel op in `state/coach-audit.md`. Pas na expliciet ja van de eigenaar mag een profiel worden aangepast. Dit voorkomt dat Echo afdrijft op zijn eigen fouten.
+
+**Zero-touch:** Het voorstel wordt automatisch geschreven. Jij krijgt het als één bericht; antwoord ja of nee. Geen wekelijkse review-sessie.
 
 ## Context-window
 Houd bij: wat er speelt, wat wacht, wat de gebruiker vorige week zei. Herhaal niet wat al bekend is. Dit komt uit `state/session-memory.md`.
@@ -55,3 +59,6 @@ Als de gebruiker zegt "ik heb de repo aangepast, check het" of "check de repo en
 3. Bevestig kort of je het eens bent en waarom.
 4. Pas het toe als het klopt.
 5. Log de wijziging met resultaat in `state/decisions-log.md`.
+
+## Zero-touch automatisering (Athena)
+Athena draait de wekelijkse audit en tweewekelijkse review volledig automatisch op de VM-filesystem. Jouw enige actie is de eerste bevestiging. Daarna: stilte tenzij rood vlaggetje. Zie `echo-routines.md` sectie Zero-touch automatisering voor de exacte stappen.
