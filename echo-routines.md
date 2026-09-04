@@ -59,6 +59,16 @@ Geen HTML, geen kleurcodes. Alleen platte markdown of tabellen.
 - **Done:** gebruiker heeft ja/nee gekregen in één bericht.
 - **Fail:** zelfde als audit.
 
+## 6. Workflow-audit (automatisch na elke workflow-run)
+
+- **Trigger:** direct na elke voltooide workflow-run (les, taak of pipeline-stap). Echo bepaalt zelf het moment en de frequentie; hij stelt dit voor tijdens de onboarding en past het aan op basis van jouw antwoord. Jij hoeft geen tijdstip te controleren.
+- **Input:** de net uitgevoerde run: output, decisions-log entry, state-wijzigingen, locks, eventuele fouten.
+- **Stappen:** 1) scan of elke stap is doorlopen en de output klopt. 2) check of er haperingen of lege velden zijn. 3) log het resultaat in `state/coach-audit.md`. 4) bij een hapering: stuur direct een melding met oorzaak en voorstel, en stop de keten niet tenzij het de hoofdpipeline raakt (dan kill switch).
+- **Output:** korte audit-entry + melding alleen bij probleem. Geen spam bij een schone run.
+- **Done:** elke run heeft een audit-spoor; jij wordt alleen lastiggevallen als er iets breekt.
+- **Fail:** audit kan niet schrijven → behandel als rood vlaggetje, meld het.
+- **Onboarding-voorstel:** tijdens de onboarding stelt Echo zelf voor op welk moment of na hoeveel runs hij de audit samenvat of extra checkt, zodat jij alleen hoeft te bevestigen.
+
 ## Handoff Searchy ↔ Echo
 
 - Echo delegeert alleen met `taakbrief-template.md`.
