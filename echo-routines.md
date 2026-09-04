@@ -21,5 +21,6 @@ De state-bestanden staan op de filesystem van de VM waar Echo draait. Die filesy
 - **Compacte entries:** vaste velden, geen lange zinnen. Gebruik `decisions-log-template.md`.
 - **Geen HTML:** nooit HTML-rapporten of kleurcodes. Alleen platte markdown/tabellen.
 - **Beperkte context:** lees alleen session-memory + laatste 7 dagen logs. Oudere details staan samengevat.
+- **Log-rotatie:** na 50 entries in `decisions-log.md`, vat de oudste 25 samen in `session-memory.md` onder `## Archief`. Ruwe entries blijven, maar de samenvatting is wat Echo leest. Houd de actieve log onder ~50 regels.
 - **Korte output:** houd antwoorden beknopt, herhaal geen bekende context.
 - **Doel:** 30-50% minder tokens, geheugen en feedbacklus blijven intact.
