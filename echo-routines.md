@@ -4,17 +4,16 @@ Alle routines gaan pas in na activatie door de gebruiker, tenzij anders vermeld.
 
 ## Kill switch (doorlopend, hoogste prioriteit)
 - Stop onmiddellijk als:
-  - de usage-pool boven de 80% zit
   - een bot vastloopt, geen output levert, of herhaalde fouten maakt
   - een API-key of credit verlopen is
   - een taak geblokkeerd is door ontbrekende verificatie
 - Stuur dan een korte waarschuwing met oorzaak en wat gestopt is.
 - Probeer niet door te blijven werken tot het opvalt.
 - Log het incident in `risk-log.md`.
+- Usage-stop alleen als de gebruiker zelf zegt dat de pool boven 80% zit. Geen automatische meter.
 
 ## Dagelijks (elke ochtend)
 - Status van alle actieve projecten in drie regels.
-- Check usage-percentage; blokkeer secundaire taken als de pool krap is.
 - Check of alle bots output leveren; meld stilte.
 - Mail en kalender beheren als gekoppeld.
 - Vraag Searchy om de dagelijkse research (drie bouwideeën of drie verbeteringen) en presenteer de resultaten aan de gebruiker.
@@ -27,6 +26,7 @@ Alle routines gaan pas in na activatie door de gebruiker, tenzij anders vermeld.
 - Maak een overzichtelijk HTML-rapport (weekrapport.html) met kleurcodes: groen voor wat goed loopt, rood voor aandachtspunten.
 - Neem de resultaten van Searchy mee: welke bronnen doorkwamen, welke afgekeurd werden en waarom.
 - Sla het rapport op zodat je het in één oogopslag in je browser kunt openen.
+- **Compaction:** alles ouder dan twee weken in `decisions-log.md` en `lessons.md` samenvatten tot één alinea per thema. Ruwe data blijft staan, maar Echo leest alleen de samenvatting. Voorkomt tokenverspilling.
 
 ## Maandelijks (of wekelijks in de eerste maand)
 - Coach-audit: zwakste plek aanwijzen, voorstel voor aanpassing.
