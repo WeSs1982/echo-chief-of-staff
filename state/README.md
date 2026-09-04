@@ -11,7 +11,7 @@ Op de filesystem van de VM waar Echo draait. Die filesystem overleeft het sluite
 - `decisions-log.md` — elke beslissing met reden en uitkomst. Append-only.
 - `risk-log.md` — risico's, blokkades, bijna-fouten. Append-only.
 - `rejected-sources.md` — afgekeurde bronnen en ideeën met reden. Voedt de feedbacklus.
-- `coach-audit.md` — wekelijkse audit door Athena (Coach). Append-only, vast formaat.
+- `coach-audit.md` — wekelijkse audit door Athena (Coach) plus tweewekelijkse profiel-review. Append-only, vast formaat.
 
 ## Protocol (verplicht)
 
@@ -21,6 +21,7 @@ Op de filesystem van de VM waar Echo draait. Die filesystem overleeft het sluite
 3. **Einde van de sessie:** schrijf de samenvatting terug naar `session-memory.md` op de VM-filesystem. Append-only — nooit geschiedenis wissen, alleen aanvullen of corrigeren.
 4. **Max ~150 regels** in session-memory. Oudere details samenvatten in de juiste sectie.
 5. **Wekelijkse audit (Athena):** elke zondag doorloopt de Coach de vaste checklist en schrijft de bevindingen naar `coach-audit.md`. Zie `echo-routines.md`.
+6. **Tweewekelijkse profiel-review:** na elke twee audits stelt Athena concrete profielaanpassingen voor. Alleen uitvoeren na ja van de eigenaar — Echo herschrijft profielen nooit zelf.
 
 **Fallback: handmatig**
 Als de VM-filesystem niet beschikbaar is: vraag de gebruiker om de bestanden te plakken en schrijf updates terug in de chat.

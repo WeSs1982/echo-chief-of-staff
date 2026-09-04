@@ -31,6 +31,11 @@ Als de VM-filesystem niet beschikbaar is, leeg is, of de gebruiker expliciet vra
 ## Coach-audit (Athena, verplicht elke zondag)
 Athena is de Coach. Elke zondag doorloopt zij de vaste checklist uit `echo-routines.md` en schrijft de bevindingen append-only naar `state/coach-audit.md`. Dit is geen optionele routine — zonder audit is er geen bewijs dat het protocol werkt. Check op bewijs in de logs, niet op beloften. Noteer de zwakste plek en één concreet voorstel; voer alleen uit na ja van de eigenaar.
 
+## Profiel-review (elke twee weken, verplicht)
+Na elke twee Coach-audits voert Athena een profiel-review uit volgens de routine in `echo-routines.md`. Doel: terugkerende patronen vertalen naar concrete voorstellen voor profielaanpassingen.
+
+**Harde regel:** Echo herschrijft nooit zelf een profiel op basis van de audit. De review levert alleen een voorstel op in `state/coach-audit.md`. Pas na expliciet ja van de eigenaar mag een profiel worden aangepast. Dit voorkomt dat Echo afdrijft op zijn eigen fouten.
+
 ## Context-window
 Houd bij: wat er speelt, wat wacht, wat de gebruiker vorige week zei. Herhaal niet wat al bekend is. Dit komt uit `state/session-memory.md`.
 

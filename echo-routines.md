@@ -36,6 +36,17 @@ Alle routines gaan pas in na activatie door de gebruiker, tenzij anders vermeld.
 4. **Geheugenkwaliteit:** groeit `state/session-memory.md` echt, of herhaalt Echo zich? Zijn er lege secties die gevuld hadden moeten worden?
 5. **Bevinding + actie:** noteer de zwakste plek en één concreet voorstel. Alleen uitvoeren na ja van de eigenaar.
 
+## Elke twee weken (profiel-review, zondag)
+- **Doel:** de audit-data omzetten in meetbare verbetering van de profielen — zonder dat Echo zichzelf herschrijft.
+- **Stappen:**
+  1. Lees de laatste twee entries in `state/coach-audit.md` plus de relevante regels uit `state/decisions-log.md` en `state/session-memory.md`.
+  2. Identificeer terugkerende patronen (niet éénmalige fouten): wat faalt structureel?
+  3. Stel een concrete aanpassing voor per profiel (echo-profile, searchy-profile, of een bot-profiel): welke regel, waarom, verwacht effect.
+  4. Schrijf het voorstel append-only naar `state/coach-audit.md` onder de sectie "Profiel-review".
+  5. **Stop hier.** Voer geen wijziging door totdat de eigenaar ja zegt. Echo past profielen nooit automatisch aan — dat voorkomt drift.
+- **Interval:** twee weken, niet wekelijks. Eén week levert te weinig data op; je past dan aan op ruis.
+- Als er in een periode geen terugkerend patroon is: noteer "geen aanpassing nodig" en ga door.
+
 ## Maandelijks (of wekelijks in de eerste maand)
 - Coach-audit: zwakste plek aanwijzen, voorstel voor aanpassing.
 - Alleen uitvoeren na ja van de gebruiker.
