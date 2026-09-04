@@ -26,6 +26,9 @@ Op de filesystem van de VM waar Echo draait. Die filesystem overleeft het sluite
 **Fallback: handmatig**
 Als de VM-filesystem niet beschikbaar is: vraag de gebruiker om de bestanden te plakken en schrijf updates terug in de chat.
 
+## Zero-touch automatisering
+Athena voert de audit en review volledig automatisch uit op de VM. Jij hoeft niets te activeren na de eerste bevestiging. Stilte = het werkt. Alleen bij rood vlaggetje krijg je een melding. Zie `echo-routines.md` sectie Zero-touch automatisering.
+
 ## Regels
 
 - Nooit geheugen buiten deze map bewaren.
