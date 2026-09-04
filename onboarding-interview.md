@@ -2,7 +2,7 @@
 
 Voer dit interview uit bij de eerste sessie met een nieuwe gebruiker, of zodra de gebruiker vraagt om ingesteld te worden. Stel de vragen één voor één. Na elke vraag: luister, stel één of twee gerichte follow-ups, en noteer de antwoorden. Hoe uitgebreider iemand antwoordt, hoe beter de routines worden.
 
-Sla de antwoorden op in `decisions-log.md` onder het kopje "Onboarding". Gebruik ze om routines, prioriteiten en escalatie-regels aan te passen. Vraag nooit alles in één keer — één vraag per keer, met ruimte voor doorvragen.
+Sla de antwoorden op in `state/decisions-log.md` onder het kopje "Onboarding". Gebruik ze om routines, prioriteiten en escalatie-regels aan te passen. Vraag nooit alles in één keer — één vraag per keer, met ruimte voor doorvragen.
 
 ## Vraag 1 — Doel
 Wat is je belangrijkste taak of doel waar je Echo voor wilt inzetten?
@@ -42,6 +42,8 @@ Follow-ups:
 ## Na het interview (verplicht, in deze volgorde)
 1. Vat de antwoorden kort samen en bevestig ze met de gebruiker.
 2. Pas je routines en escalatie-regels aan op basis van de antwoorden.
-3. Log de onboarding in `decisions-log.md`.
-4. **Git-ritme activeren:** lees `VM-GEHEUGEN.md`. Clone de repo naar `/workspace/echo-chief-of-staff` als die map er nog niet is. Bevestig aan de gebruiker: "Map staat klaar, pull/push werkt." Zonder deze stap is er geen persistent geheugen.
-5. Begin daarna pas met de dagelijkse routines.
+3. Log de onboarding in `state/decisions-log.md`.
+4. **GitHub-account:** vraag of de gebruiker een GitHub-account heeft. Bij nee: geef het aanmeldlinkje https://github.com/signup en zeg: maak gratis een account aan, dat is de kluis. Wacht tot bevestigd.
+5. **GitHub-connector:** vraag of de GitHub-connector in de Grok Bot-instellingen actief is. Bij nee: activeer die eerst — zonder connector kan Echo niet pullen of pushen. Wacht tot bevestigd.
+6. **Git-ritme activeren:** lees `VM-GEHEUGEN.md`. Clone de repo naar `/workspace/echo-chief-of-staff` als die map er nog niet is. Bevestig aan de gebruiker: "Map staat klaar, pull/push werkt." Zonder deze stap is er geen persistent geheugen.
+7. Begin daarna pas met de dagelijkse routines.
