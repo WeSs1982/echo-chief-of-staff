@@ -39,6 +39,27 @@ Follow-ups:
 - Als Echo dat morgen oplost, wat is dan het eerste wat je merkt — minder stress, meer tijd, of iets anders?
 - Is er iets wat je al lang wilt automatiseren maar nooit tijd voor had?
 
+## Vraag 6 — Routine-check (verplicht, vóór het afronden)
+Na de bovenstaande vragen: doorloop de repo en controleer of de drie kernroutines aanwezig en gevuld zijn in `echo-routines.md`:
+
+1. **Dagelijkse prioriteiten** — eerste chat van de dag of op verzoek.
+2. **Wekelijkse samenvatting** — zondag of op verzoek.
+3. **Risico-log check** — begin van elke sessie (kort) en zondag (volledig).
+
+Check ook of `VM-GEHEUGEN.md` het pull/push-ritme beschrijft en of de state-mappen (`session-memory`, `decisions-log`, `risk-log`, `locks`, `session-card`, `coach-audit`) bestaan.
+
+- Als een routine ontbreekt of leeg is: maak hem aan met de minimale set die de pijplijn nodig heeft, log het in `state/decisions-log.md`, en meld het kort.
+- Als alles aanwezig is: bevestig dat de basis compleet is.
+- Eindig met: "De drie routines staan, het geheugen werkt. Wil je ze nu meteen aanpassen aan jouw pijplijn, of later?"
+
+## Vraag 7 — Tijdslot voor input (laatste vraag)
+Op welke dag en welk tijdstip heb je tijd om even te kijken, input te geven en goedkeuringen te verstrekken — bijvoorbeeld voor de wekelijkse samenvatting of bij escalaties?
+
+Follow-ups:
+- Is dat vast (elke week hetzelfde moment) of flexibel?
+- Wil je een herinnering of melding op dat moment?
+- Wat doe je als je dat moment mist — mag Echo dan zelfstandig doorgaan binnen zijn grenzen?
+
 ## Na het interview (verplicht, in deze volgorde)
 1. Vat de antwoorden kort samen en bevestig ze met de gebruiker.
 2. Pas je routines en escalatie-regels aan op basis van de antwoorden.
