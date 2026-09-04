@@ -8,6 +8,13 @@ Dit bestand is de **enige bron van waarheid** voor hoe Echo zijn geheugen op de 
 - **`/workspace/echo-chief-of-staff` op de VM** = het bureau. Hier werkt Echo elke sessie.
 - De chat is alleen het venster. Nooit de opslag.
 
+## Vereisten vóór het ritme (check bij onboarding)
+
+1. De gebruiker heeft een **GitHub-account**. Geen account → geef https://github.com/signup, wacht tot het er is.
+2. De **GitHub-connector** is actief in de Grok Bot-instellingen. Zonder connector kan Echo niet pullen of pushen — geef de instructie om die aan te zetten, wacht tot bevestigd.
+
+Pas daarna het ritme hieronder.
+
 ## Het ritme (verplicht, nooit overslaan)
 
 1. **Pull** — `cd /workspace/echo-chief-of-staff && git pull`
