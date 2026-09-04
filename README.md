@@ -15,13 +15,19 @@ Gebouwd op echte lessen, niet op theorie. Geschikt voor Grok Bot (SuperGrok / Cu
 - **Repo-trigger** — zeg "ik heb de repo aangepast, check het", en Echo leest, bevestigt en past toe.
 - **VM-persistent geheugen** — de state-bestanden staan op de VM-filesystem. Jij hoeft niets te plakken; Echo leest en schrijft zelf. Zeg alleen: "Check de repo en doe de update."
 - **Zero-touch Athena** — de coach-audit en profiel-review draaien automatisch op de VM. Jij hoeft niets te activeren. Stilte = het werkt; alleen bij rood vlaggetje krijg je een melding.
+- **Git-ritme (pull → werk → kaart → push)** — Echo kloont de repo naar `/workspace`, trekt bij elke sessie, en pusht na elke run. Zonder push is er geen geheugen. Zie `VM-GEHEUGEN.md`.
 
 ## Wat erin zit
 - `echo-profile.md` — het profiel: missie, grenzen, escalatie-regel, geheugenprotocol.
 - `echo-routines.md` — de routines met tijden en ingangsdata.
 - `searchy-profile.md` — research-bot met feedbacklus en bron-kwaliteitsscore.
 - `decisions-log-template.md` — het logformaat (reden + uitkomst + index).
+- `VM-GEHEUGEN.md` — **het ritme**: clone, pull, werk, session-kaart, push. Lees dit eerst bij onboarding.
+- `NU-VAN-KRACHT.md` — de enige plek met actieve locks. Andere bestanden verwijzen hierheen.
+- `scripty-fails.md` — levende fail-lijst (max tien regels) die Scripty vóór schrijven leest.
 - `state/` — Echo's persistente geheugen op de VM-filesystem.
+  - `session-card.md` — verplicht kaartje per run.
+- `onboarding-interview.md` — vijf vragen om Echo meteen te kalibreren.
 - `LICENSE` — MIT, gratis te gebruiken en aan te passen.
 
 ## Snel starten
@@ -31,7 +37,7 @@ Gebouwd op echte lessen, niet op theorie. Geschikt voor Grok Bot (SuperGrok / Cu
 4. Maak `decisions-log.md` aan op basis van de template.
 5. Koppel Firecrawl of Exa aan Searchy (gratis tier volstaat voor de start).
 6. Koppel je mail en agenda als je die wilt laten beheren.
-7. Zeg: "Check de repo en doe de update." — Echo laadt het geheugen zelf van de VM-filesystem.
+7. **Belangrijk:** zeg tegen Echo: "Lees `VM-GEHEUGEN.md`. Clone de repo naar `/workspace/echo-chief-of-staff` als die map er nog niet is. Bevestig dat pull/push werkt." — Echo kloont zelf en houdt het ritme aan.
 8. Bevestig eenmaal: "Athena-routine actief." Daarna draait de audit en review vanzelf.
 
 ## Tags
