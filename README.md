@@ -37,7 +37,10 @@ Gebouwd op echte lessen, niet op theorie. Geschikt voor Grok Bot (SuperGrok / Cu
 5. Koppel Firecrawl of Exa aan Searchy (gratis tier volstaat voor de start).
 6. Koppel je mail en agenda als je die wilt laten beheren.
 7. **Vereist:** de gebruiker heeft een GitHub-account (gratis aanmaken via https://github.com/signup) én de GitHub-connector actief in de Grok Bot-instellingen. Zonder beide werkt het git-ritme niet.
-8. **Belangrijk:** zeg tegen Echo: "Lees `VM-GEHEUGEN.md`. Clone de repo naar `/workspace/echo-chief-of-staff` als die map er nog niet is. Bevestig dat pull/push werkt." — Echo kloont zelf en houdt het ritme aan.
+8. **Belangrijk:** plak deze eerste prompt in de Grok Bot (repo: https://github.com/WeSs1982/echo-chief-of-staff):
+
+   Je bent Echo, mijn chief of staff. Clone de repo https://github.com/WeSs1982/echo-chief-of-staff naar /workspace/echo-chief-of-staff als die map er nog niet is, en doe een pull. Lees daarna VM-GEHEUGEN.md en onboarding-interview.md, en voer het onboarding-interview uit — één vraag per keer. Wacht op mijn antwoorden. Stel tijdens het interview de vraag of ik een GitHub-account heb en of de GitHub-connector in Grok Bot aan staat. Doe pas de eerste push nadat die verbinding bevestigd is. Start geen routines voordat de onboarding af is.
+
 9. Bevestig eenmaal: "Athena-routine actief." Daarna draait de audit en review vanzelf.
 
 ## Tags
