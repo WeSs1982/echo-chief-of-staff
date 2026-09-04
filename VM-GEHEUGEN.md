@@ -64,3 +64,10 @@ Echo doet de rest: pull, schrijven, kaart, push.
 ## Reset / herstart
 
 Bij een VM-reset is `/workspace` weg. Dan: opnieuw clonen, daarna pull. GitHub is de back-up — daarom is push na elke run heilig.
+
+## Log-rotatie (verplicht — voorkomt token-lekkage)
+
+- Na **50 entries** in `state/decisions-log.md`: vat de oudste 25 samen in één alinea per thema onder `## Archief` in `state/session-memory.md`.
+- Ruwe entries blijven staan voor referentie, maar de samenvatting is wat Echo leest.
+- Houd `decisions-log.md` onder ~50 actieve regels. Oudere details horen in session-memory, niet in de log.
+- Dit is de plek waar token-besparing vanzelf lekt als je het niet vastlegt — daarom is dit een harde regel, geen suggestie.
