@@ -27,6 +27,14 @@ Alle routines gaan pas in na activatie door de gebruiker, tenzij anders vermeld.
 - Neem de resultaten van Searchy mee: welke bronnen doorkwamen, welke afgekeurd werden en waarom.
 - Sla het rapport op zodat je het in één oogopslag in je browser kunt openen.
 - **Compaction:** alles ouder dan twee weken in `decisions-log.md` en `lessons.md` samenvatten tot één alinea per thema. Ruwe data blijft staan, maar Echo leest alleen de samenvatting. Voorkomt tokenverspilling.
+- **Coach-audit (Athena):** doorloop de vaste checklist hieronder. Schrijf de bevindingen append-only naar `state/coach-audit.md` in het vaste formaat. Dit is verplicht — geen audit, geen groene week.
+
+### Coach-audit checklist (Athena, elke zondag)
+1. **Protocol-naleving:** heeft elke bot `state/session-memory.md` geladen aan het begin en teruggeschreven aan het einde? Check de logs op bewijs, niet op belofte.
+2. **Schema-discipline:** komen de output-blokken van Scripty, Narrator, Motion en Uploady eruit zoals gedefinieerd in `schemas/`? Of is het vrije tekst geworden?
+3. **Kill switch:** is hij ooit vuurgegaan? Zo ja, correct gestopt en gelogd? Zo nee, noteer dat expliciet.
+4. **Geheugenkwaliteit:** groeit `session-memory.md` echt, of herhaalt Echo zich? Zijn er lege secties die gevuld hadden moeten worden?
+5. **Bevinding + actie:** noteer de zwakste plek en één concreet voorstel. Alleen uitvoeren na ja van de eigenaar.
 
 ## Maandelijks (of wekelijks in de eerste maand)
 - Coach-audit: zwakste plek aanwijzen, voorstel voor aanpassing.

@@ -8,6 +8,7 @@ Deze map is Echo's enige persistente geheugen. Alles groeit hierin mee tussen se
 - `decisions-log.md` — elke beslissing met reden en uitkomst. Append-only.
 - `risk-log.md` — risico's, blokkades, bijna-fouten. Append-only.
 - `rejected-sources.md` — afgekeurde bronnen en ideeën met reden. Voedt de feedbacklus.
+- `coach-audit.md` — wekelijkse audit door Athena (Coach). Append-only, vast formaat.
 
 ## Protocol (verplicht)
 
@@ -15,6 +16,7 @@ Deze map is Echo's enige persistente geheugen. Alles groeit hierin mee tussen se
 2. **Tijdens de sessie:** log beslissingen in `decisions-log.md`, risico's in `risk-log.md`, afkeuringen in `rejected-sources.md`. Update `session-memory.md` bij significante veranderingen.
 3. **Einde van de sessie:** schrijf de samenvatting terug naar `session-memory.md`. Append-only — nooit geschiedenis wissen, alleen aanvullen of corrigeren.
 4. **Max ~150 regels** in session-memory. Oudere details samenvatten in de juiste sectie.
+5. **Wekelijkse audit (Athena):** elke zondag doorloopt de Coach de vaste checklist en schrijft de bevindingen naar `coach-audit.md`. Zie `echo-routines.md`.
 
 ## Regels
 
