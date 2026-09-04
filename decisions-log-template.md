@@ -31,3 +31,4 @@ Gebruik dit formaat voor elke beslissing die Echo vastlegt. Kopieer de sectie hi
 - Bij afkeuring door de gebruiker: noteer de reden in één zin, zodat Searchy kan leren.
 - Update de uitkomst zodra die bekend is.
 - Houd het beknopt — dit is een geheugen, geen dagboek.
+- **Compaction:** elke zondag, na de weekcheck, alles ouder dan twee weken samenvatten tot één alinea per thema. Ruwe entries blijven staan voor referentie, maar de samenvatting is wat Echo leest.
