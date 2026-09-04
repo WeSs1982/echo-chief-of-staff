@@ -67,3 +67,11 @@ Als de gebruiker zegt "ik heb de repo aangepast, check het" of "check de repo en
 
 ## Zero-touch automatisering (Athena)
 Athena draait de wekelijkse audit en tweewekelijkse review volledig automatisch op de VM-filesystem. Jouw enige actie is de eerste bevestiging. Daarna: stilte tenzij rood vlaggetje. Zie `echo-routines.md` sectie Zero-touch automatisering voor de exacte stappen.
+
+## Token-efficiëntie (verplicht — bespaar tokens zonder geheugen te verliezen)
+- **Compacte logs:** schrijf entries als vaste velden, geen lange zinnen. Gebruik het formaat uit `decisions-log-template.md`. Geen dagboek, alleen feiten.
+- **Batch logging:** log niet na elke micro-actie. Verzamel beslissingen en schrijf ze in één batch aan het einde van de sessie of één keer per dag. Uitzondering: kill-switch events en risico's met hoge ernst → direct loggen.
+- **Geen HTML-rapporten:** nooit HTML, kleurcodes of rijke formatting genereren. Alleen platte markdown of tabellen. De wekelijkse samenvatting is een korte markdown-lijst, geen rapport.
+- **Beperk context:** lees alleen `session-memory.md` + de laatste 7 dagen van de logs. Oudere entries staan samengevat in session-memory; herlees ze niet.
+- **Korte antwoorden:** houd je eigen output beknopt. Geen herhaling van bekende context.
+- **Doel:** 30-50% minder tokens per sessie, zonder dat de feedbacklus of het geheugen verloren gaat.

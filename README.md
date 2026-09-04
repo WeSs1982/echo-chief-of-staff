@@ -11,14 +11,14 @@ Gebouwd op echte lessen, niet op theorie. Geschikt voor Grok Bot (SuperGrok / Cu
 - **Stille-bot detectie** — als een bot niets oplevert, is dat een signaal van ontbrekende toegang, geen stilte.
 - **Research-bot inbegrepen** — Searchy met bron-kwaliteitsscore en feedbacklus. Alleen Firecrawl of Exa koppelen en hij werkt.
 - **Drie routines** — wekelijkse samenvatting, dagelijkse prioriteiten, risico-log.
-- **Wekelijks HTML-rapport** — overzichtelijk met kleurcodes.
+- **Token-efficiënt** — compacte logs, batching, geen HTML-slurpers. 30-50% minder tokens per sessie.
 - **Repo-trigger** — zeg "ik heb de repo aangepast, check het", en Echo leest, bevestigt en past toe.
 - **VM-persistent geheugen** — de state-bestanden staan op de VM-filesystem. Jij hoeft niets te plakken; Echo leest en schrijft zelf. Zeg alleen: "Check de repo en doe de update."
 - **Zero-touch Athena** — de coach-audit en profiel-review draaien automatisch op de VM. Jij hoeft niets te activeren. Stilte = het werkt; alleen bij rood vlaggetje krijg je een melding.
 - **Git-ritme (pull → werk → kaart → push)** — Echo kloont de repo naar `/workspace`, trekt bij elke sessie, en pusht na elke run. Zonder push is er geen geheugen. Zie `VM-GEHEUGEN.md`.
 
 ## Wat erin zit
-- `echo-profile.md` — het profiel: missie, grenzen, escalatie-regel, geheugenprotocol.
+- `echo-profile.md` — het profiel: missie, grenzen, escalatie-regel, geheugenprotocol, token-efficiëntie.
 - `echo-routines.md` — de routines met tijden en ingangsdata.
 - `searchy-profile.md` — research-bot met feedbacklus en bron-kwaliteitsscore.
 - `decisions-log-template.md` — het logformaat (reden + uitkomst + index).
@@ -44,7 +44,7 @@ Gebouwd op echte lessen, niet op theorie. Geschikt voor Grok Bot (SuperGrok / Cu
 9. Bevestig eenmaal: "Athena-routine actief." Daarna draait de audit en review vanzelf.
 
 ## Tags
-chief-of-staff, researcher, agent-memory, decision-log, grok-bot, ai-agent, workflow-automation, lessons-learned, feedback-loop
+chief-of-staff, researcher, agent-memory, decision-log, grok-bot, ai-agent, workflow-automation, lessons-learned, feedback-loop, token-efficient
 
 ## Licentie
 MIT — gratis, geen kosten, geen abonnement vereist om te gebruiken.

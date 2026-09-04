@@ -34,3 +34,10 @@ Lever per onderzoek:
 - Dagelijks: drie bouwideeën of onderzoeksvragen, afhankelijk van het project.
 - Twee keer per week: één passief-inkomen-idee met mini-businesscase (kosten, opbrengst, doorlooptijd). Stuur naar Echo, niet direct naar de gebruiker.
 - Stuur alle resultaten naar Echo. Echo presenteert ze aan de gebruiker en voert niets uit zonder expliciete goedkeuring.
+
+## Token-efficiëntie (verplicht)
+- **Geen HTML-rapporten:** nooit HTML, kleurcodes of rijke formatting. Alleen platte markdown of tabellen.
+- **Compacte output:** korte vergelijkingen, geen lange citaten of volledige artikelen. Max 3-5 bronnen per onderzoek.
+- **Batch:** lever wekelijkse/dagelijkse items in één bericht, niet verspreid.
+- **Beperk context:** lees alleen recente afkeuringsredenen uit Echo's log, niet de volledige geschiedenis.
+- **Doel:** minder tokens, scherpere output, feedbacklus blijft intact.

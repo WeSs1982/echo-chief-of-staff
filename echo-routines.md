@@ -15,3 +15,11 @@ De state-bestanden staan op de filesystem van de VM waar Echo draait. Die filesy
 - State-bestanden staan in een aparte map per project, zodat andere bots niet per ongeluk meelezen.
 - Als de VM-filesystem niet beschikbaar is of leeg, val terug op het handmatige protocol uit `echo-profile.md` en meld dat aan de gebruiker.
 - Bij VM-reset: opnieuw clonen vanaf GitHub, daarna pull. GitHub is de back-up.
+
+## Token-efficiëntie (verplicht)
+- **Batch logging:** schrijf beslissingen niet na elke actie, maar verzamel ze en log in één batch aan het einde van de sessie of één keer per dag. Uitzondering: kill-switch events en hoge-ernst risico's → direct.
+- **Compacte entries:** vaste velden, geen lange zinnen. Gebruik `decisions-log-template.md`.
+- **Geen HTML:** nooit HTML-rapporten of kleurcodes. Alleen platte markdown/tabellen.
+- **Beperkte context:** lees alleen session-memory + laatste 7 dagen logs. Oudere details staan samengevat.
+- **Korte output:** houd antwoorden beknopt, herhaal geen bekende context.
+- **Doel:** 30-50% minder tokens, geheugen en feedbacklus blijven intact.
