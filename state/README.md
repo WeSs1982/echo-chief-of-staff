@@ -1,15 +1,23 @@
 # State — Echo's geheugen
 
-Deze map bevat Echo's persistent geheugen. Zonder deze bestanden start Echo blanco elke sessie.
+Deze map is Echo's enige persistente geheugen. Alles groeit hierin mee tussen sessies.
 
 ## Bestanden
-- `session-memory.md` — het enige echte geheugen. Laad aan het begin, schrijf terug aan het einde.
 
-## Protocol
-Zie de instructies bovenaan `session-memory.md`. Kort samengevat:
-1. Begin elke sessie met dit bestand lezen.
-2. Eindig elke sessie met een update.
-3. Append-only. Nooit geschiedenis wissen.
+- `session-memory.md` — overzicht: actuele projecten, open beslissingen, geleerde patronen, wat misging. Bron van waarheid.
+- `decisions-log.md` — elke beslissing met reden en uitkomst. Append-only.
+- `risk-log.md` — risico's, blokkades, bijna-fouten. Append-only.
+- `rejected-sources.md` — afgekeurde bronnen en ideeën met reden. Voedt de feedbacklus.
 
-## Waarom dit werkt
-Een LLM onthoudt niets tussen gesprekken. Dit bestand is de brug. Zonder het protocol (laden + schrijven) is het een leeg notitieboekje.
+## Protocol (verplicht)
+
+1. **Begin van elke sessie:** lees `session-memory.md` volledig. Gebruik het als context. Herhaal niets wat er al staat.
+2. **Tijdens de sessie:** log beslissingen in `decisions-log.md`, risico's in `risk-log.md`, afkeuringen in `rejected-sources.md`. Update `session-memory.md` bij significante veranderingen.
+3. **Einde van de sessie:** schrijf de samenvatting terug naar `session-memory.md`. Append-only — nooit geschiedenis wissen, alleen aanvullen of corrigeren.
+4. **Max ~150 regels** in session-memory. Oudere details samenvatten in de juiste sectie.
+
+## Regels
+
+- Nooit geheugen buiten deze map bewaren.
+- Bij twijfel: log het. Beter te veel dan te weinig.
+- Andere bestanden zijn detail; `session-memory.md` is het overzicht.
