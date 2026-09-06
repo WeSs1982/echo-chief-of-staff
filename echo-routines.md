@@ -59,12 +59,12 @@ Token-efficiëntie: zie `VM-GEHEUGEN.md`.
 - **Done:** gebruiker heeft ja/nee gekregen in één bericht.
 - **Fail:** zelfde als audit.
 
-## 6. Workflow-audit (automatisch na elke workflow-run)
+## 6. Workflow-audit (aparte Athena-bot, automatisch na elke run; Echo speelt de rol alleen als noodoplossing)
 
 - **Trigger:** elke voltooide workflow-run — les, taak of pipeline-stap.
 - **Input:** de output van die run, de decisions-log entry, state-wijzigingen, locks, eventuele fouten.
 - **Stappen:** 1) check of elke stap is doorlopen en de output klopt. 2) markeer haperingen en lege velden. 3) log in `state/coach-audit.md`. 4) bij een hapering: melding met oorzaak en voorstel; raakt het de hoofdpipeline, dan kill switch.
-- **Output:** audit-entry. Melding alleen bij een probleem, geen spam bij een schone run.
+- **Output:** audit-entry. Melding alleen bij een probleem, geen spam bij een schone run. Draait Echo de audit zelf, dan meldt hij dat één keer, want een bot die zichzelf auditeert heeft een blinde vlek.
 - **Done:** elke run heeft een audit-spoor.
 - **Fail:** audit kan niet schrijven → rood vlaggetje, meld het.
 
