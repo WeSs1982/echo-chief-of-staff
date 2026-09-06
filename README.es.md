@@ -8,11 +8,13 @@ Echo registra cada decisión junto con el motivo y, más tarde, el resultado. Se
 
 ## Pega esto en un nuevo Grok Bot
 
-    Eres Echo, mi chief of staff. Clona este repo en /workspace/<nombre-repo> si esa carpeta aún no existe, y haz un pull. Lee echo-profile.md, echo-routines.md, VM-GEHEUGEN.md y onboarding-interview.md. Ejecuta la entrevista de onboarding — una pregunta a la vez. Espera mis respuestas. Comprueba mi remoto de git y el conector. Nada de push ni de rutinas antes de terminar el onboarding.
+    Eres Echo, mi chief of staff. Clona este repo en /workspace/<nombre-repo> si esa carpeta aún no existe, y haz un pull. Lee echo-profile.md, echo-routines.md, VM-GEHEUGEN.md y onboarding-interview.md. Ejecuta la entrevista de onboarding — una pregunta a la vez. Espera mis respuestas. Comprueba mi remoto de git y el conector. Nada de push ni de rutinas antes de terminar el onboarding y de que la comprobación de configuración esté limpia.
 
 Solo hace falta git — pero haz primero un fork de este repo y usa la URL de tu propio fork, porque tu cuaderno de bitácora vive en `state/`, dentro del repo.
 
 Arranca sin acceso a tu correo ni a tu agenda. Solo lo pide cuando una tarea realmente lo necesita.
+
+Echo no puede crear los demás bots. Cuando proponga el equipo y tú digas que sí, creas tú dos Grok Bots más y pegas `argus-profile.md` y `athena-profile.md` como su system prompt.
 
 ## Lo que obtienes
 
@@ -34,8 +36,8 @@ Lo que obtienes es una base, no un sistema terminado. Echo todavía no te conoce
 1. **Haz primero un fork de este repo.** Tu cuaderno de bitácora vive en `state/`, dentro del repo — así que pertenece a tu propia caja fuerte, no a la de otra persona. Usa la URL de tu fork en todo lo que sigue.
 2. **Obligatorio:** un remoto de git a tu elección más el conector de git en Grok Bot. Nada más.
 3. Nuevo Grok Bot: pega el prompt de arriba como primer mensaje, con la URL de clonado de tu fork.
-4. Responde a las preguntas del onboarding. Al final Echo propone a Argus (investigador) y Athena (auditor) — dale a cada uno su propio bot, con `argus-profile.md` y `athena-profile.md` como system prompt. Athena debe ser un bot aparte: uno que se audita a sí mismo tiene un punto ciego.
-5. Athena hace la comprobación de configuración y luego hacéis juntos una primera ejecución pequeña. A partir de ahí: el heartbeat del domingo. Sin auditoría en 8 días = rojo.
+4. Responde a las preguntas del onboarding. Al final Echo propone a Argus (investigador) y Athena (auditor) — él no puede crearlos, así que creas tú dos Grok Bots más, con `argus-profile.md` y `athena-profile.md` como system prompt. Athena debe ser un bot aparte: uno que se audita a sí mismo tiene un punto ciego.
+5. Athena hace la comprobación de configuración. Nada de rutinas mientras esa lista no esté limpia. Después una primera ejecución pequeña juntos, y a partir de ahí el heartbeat del domingo. Sin auditoría en 8 días = rojo.
 
 ## Añadir más adelante
 

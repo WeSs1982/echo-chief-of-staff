@@ -8,11 +8,13 @@ Echo zapisuje każdą decyzję razem z powodem, a później z rezultatem. Zatrzy
 
 ## Wklej to do nowego Grok Bota
 
-    Jesteś Echo, moim chief of staff. Sklonuj to repo do /workspace/<nazwa-repo>, jeśli tego katalogu jeszcze nie ma, i zrób pull. Przeczytaj echo-profile.md, echo-routines.md, VM-GEHEUGEN.md oraz onboarding-interview.md. Przeprowadź wywiad onboardingowy — jedno pytanie naraz. Czekaj na moje odpowiedzi. Sprawdź moje zdalne repozytorium git i konektor. Żadnego pusha ani rutyn przed zakończeniem onboardingu.
+    Jesteś Echo, moim chief of staff. Sklonuj to repo do /workspace/<nazwa-repo>, jeśli tego katalogu jeszcze nie ma, i zrób pull. Przeczytaj echo-profile.md, echo-routines.md, VM-GEHEUGEN.md oraz onboarding-interview.md. Przeprowadź wywiad onboardingowy — jedno pytanie naraz. Czekaj na moje odpowiedzi. Sprawdź moje zdalne repozytorium git i konektor. Żadnego pusha ani rutyn, dopóki onboarding nie jest zakończony, a kontrola konfiguracji czysta.
 
 Potrzebny jest tylko git — ale najpierw zrób forka tego repo i użyj adresu własnego forka, bo twój dziennik znajduje się w `state/`, wewnątrz repozytorium.
 
 Startuje bez dostępu do twojej poczty i kalendarza. Poprosi o niego dopiero wtedy, gdy jakieś zadanie naprawdę tego wymaga.
+
+Echo nie tworzy pozostałych botów. Kiedy zaproponuje zespół, a ty się zgodzisz, sam zakładasz dwa kolejne Grok Boty i wklejasz `argus-profile.md` oraz `athena-profile.md` jako ich system prompt.
 
 ## Co dostajesz
 
@@ -34,8 +36,8 @@ To, co dostajesz, jest podstawą, a nie gotowym systemem. Echo jeszcze cię nie 
 1. **Najpierw zrób forka tego repo.** Twój dziennik znajduje się w `state/`, wewnątrz repozytorium — należy więc do twojego własnego skarbca, nie cudzego. Poniżej wszędzie używaj adresu swojego forka.
 2. **Wymagane:** wybrane zdalne repozytorium git oraz konektor gita w Grok Bocie. Nic więcej.
 3. Nowy Grok Bot: wklej prompt powyżej jako pierwszą wiadomość, z adresem klonowania swojego forka.
-4. Odpowiedz na pytania onboardingowe. Na końcu Echo proponuje Argusa (researcher) i Athenę (audytor) — daj każdemu osobnego bota, z `argus-profile.md` i `athena-profile.md` jako system prompt. Athena powinna być osobnym botem: taki, który audytuje sam siebie, ma martwe pole.
-5. Athena robi kontrolę konfiguracji, potem robicie razem jeden mały pierwszy przebieg. Od tego momentu: heartbeat w niedzielę. Brak audytu przez 8 dni = czerwone.
+4. Odpowiedz na pytania onboardingowe. Na końcu Echo proponuje Argusa (researcher) i Athenę (audytor) — sam ich nie założy, więc dwa kolejne Grok Boty tworzysz ty, z `argus-profile.md` i `athena-profile.md` jako system prompt. Athena powinna być osobnym botem: taki, który audytuje sam siebie, ma martwe pole.
+5. Athena robi kontrolę konfiguracji. Żadnych rutyn, dopóki ta lista nie jest czysta. Potem jeden mały pierwszy przebieg razem, a od tego momentu heartbeat w niedzielę. Brak audytu przez 8 dni = czerwone.
 
 ## Dodaj później
 

@@ -8,11 +8,13 @@ Echo protokolliert jede Entscheidung samt Begründung und später dem Ergebnis. 
 
 ## Das hier in einen neuen Grok Bot einfügen
 
-    Du bist Echo, mein Chief of Staff. Klone dieses Repo nach /workspace/<repo-name>, falls das Verzeichnis noch nicht existiert, und mach einen Pull. Lies echo-profile.md, echo-routines.md, VM-GEHEUGEN.md und onboarding-interview.md. Führe das Onboarding-Interview durch — eine Frage nach der anderen. Warte auf meine Antworten. Prüfe mein Git-Remote und den Connector. Kein Push und keine Routinen, bevor das Onboarding abgeschlossen ist.
+    Du bist Echo, mein Chief of Staff. Klone dieses Repo nach /workspace/<repo-name>, falls das Verzeichnis noch nicht existiert, und mach einen Pull. Lies echo-profile.md, echo-routines.md, VM-GEHEUGEN.md und onboarding-interview.md. Führe das Onboarding-Interview durch — eine Frage nach der anderen. Warte auf meine Antworten. Prüfe mein Git-Remote und den Connector. Kein Push und keine Routinen, bevor das Onboarding abgeschlossen und der Setup-Check sauber ist.
 
 Nötig ist nur Git — aber forke dieses Repo zuerst und nutze die URL deines eigenen Forks, denn dein Logbuch liegt in `state/`, innerhalb des Repos.
 
 Startet ohne Zugriff auf deine Mail oder deinen Kalender. Fragt erst danach, wenn eine Aufgabe es wirklich braucht.
+
+Echo kann die anderen Bots nicht anlegen. Nachdem er das Team vorschlägt und du Ja sagst, erstellst du zwei weitere Grok Bots und fügst `argus-profile.md` und `athena-profile.md` als deren System-Prompt ein.
 
 ## Was du bekommst
 
@@ -34,8 +36,8 @@ Was du bekommst, ist eine Grundlage, kein fertiges System. Echo kennt dich noch 
 1. **Forke zuerst dieses Repo.** Dein Logbuch liegt in `state/`, innerhalb des Repos — es gehört also in deinen eigenen Tresor, nicht in den von jemand anderem. Nutze unten überall die URL deines Forks.
 2. **Erforderlich:** ein Git-Remote deiner Wahl plus der Git-Connector in Grok Bot. Sonst nichts.
 3. Neuer Grok Bot: den Prompt oben als erste Nachricht einfügen, mit der Clone-URL deines Forks.
-4. Beantworte die Onboarding-Fragen. Am Ende schlägt Echo Argus (Researcher) und Athena (Auditor) vor — gib jedem einen eigenen Bot, mit `argus-profile.md` bzw. `athena-profile.md` als System-Prompt. Athena gehört in einen eigenen Bot: einer, der sich selbst auditiert, hat einen blinden Fleck.
-5. Athena macht den Setup-Check, danach macht ihr zusammen einen kleinen ersten Lauf. Ab dann: der Heartbeat am Sonntag. Kein Audit in 8 Tagen = rot.
+4. Beantworte die Onboarding-Fragen. Am Ende schlägt Echo Argus (Researcher) und Athena (Auditor) vor — anlegen kann er sie nicht, also erstellst du selbst zwei weitere Grok Bots, mit `argus-profile.md` bzw. `athena-profile.md` als System-Prompt. Athena gehört in einen eigenen Bot: einer, der sich selbst auditiert, hat einen blinden Fleck.
+5. Athena macht den Setup-Check. Keine Routinen, solange diese Liste nicht sauber ist. Danach ein kleiner erster Lauf zusammen, und ab dann der Heartbeat am Sonntag. Kein Audit in 8 Tagen = rot.
 
 ## Später hinzufügen
 
