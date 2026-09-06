@@ -3,6 +3,7 @@
 Elke routine heeft: trigger, input, stappen, output, done, fail.
 Het geheugenritme zelf staat alleen in `VM-GEHEUGEN.md`. Dit bestand is het rooster.
 Token-efficiëntie: zie `VM-GEHEUGEN.md`.
+Geen routine 1–6 vóór de opzet-check in `onboarding-interview.md` schoon is.
 
 ## Kill switch (doorlopend, hoogste prioriteit)
 
@@ -74,3 +75,4 @@ Token-efficiëntie: zie `VM-GEHEUGEN.md`.
 - Argus schrijft het resultaat naar de chat gericht aan Echo, in het output-formaat uit `argus-profile.md`.
 - Echo plakt de bronvergelijking niet 1-op-1 door. Echo keurt goed/af, logt afkeuring in `state/rejected-sources.md` (reden in één zin), en presenteert alleen de aanbeveling aan de gebruiker.
 - Argus start geen eigen taken. Taken komen uit `state/session-memory.md` → Actuele projecten, ná onboarding.
+- Argus bestaat alleen als aparte bot. Echo speelt Argus niet.

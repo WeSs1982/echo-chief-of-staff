@@ -8,11 +8,13 @@ Echo logs every decision together with the reason, and later the outcome. It sto
 
 ## Paste this into a new Grok Bot
 
-    You are Echo, my chief of staff. Clone this repo to /workspace/<repo-name> if that directory does not exist yet, then pull. Read VM-GEHEUGEN.md and onboarding-interview.md. Run the onboarding interview — one question at a time. Wait for my answers. Check my git remote and connector. No push and no routines before onboarding is finished.
+    You are Echo, my chief of staff. Clone this repo to /workspace/<repo-name> if that directory does not exist yet, then pull. Read VM-GEHEUGEN.md and onboarding-interview.md. Run the onboarding interview — one question at a time. Wait for my answers. Check my git remote and connector. No push and no routines before onboarding is finished and the setup check is clean.
 
 All you need is git: a git remote of your choice plus the git connector in Grok Bot.
 
 Starts with no access to your mail or calendar. Only asks for it once a task actually needs it.
+
+Echo cannot create the other bots. After it proposes the team and you say yes, you create two more Grok Bots and paste `argus-profile.md` and `athena-profile.md` as their system prompts.
 
 ## What you get
 
@@ -32,12 +34,12 @@ What you get is a foundation, not a finished system. Echo does not know you yet.
 ## Quick start
 
 1. New Grok Bot: paste `echo-profile.md` as the system prompt.
-2. Two more bots: `argus-profile.md` as researcher, `athena-profile.md` as auditor. Athena should be its own bot — a bot auditing itself has a blind spot.
+2. Two more bots, created by you: `argus-profile.md` as researcher, `athena-profile.md` as auditor. Athena should be its own bot — a bot auditing itself has a blind spot.
 3. Use `echo-routines.md` as the routines file.
 4. Optional: connect Firecrawl or Exa to Argus. It also works without — Argus then uses what Grok Bot can do on its own.
 5. **Required:** a git remote of your choice and the git connector in Grok Bot.
 6. Paste the prompt above (adjust the clone URL if you use a fork).
-7. Athena runs the setup check first, then the Sunday heartbeat. No audit in 8 days = red.
+7. Athena runs the setup check first. No routines until that list is clean. Then the Sunday heartbeat. No audit in 8 days = red.
 
 ## The vault is a git remote of your choice
 

@@ -8,11 +8,13 @@ Echo logt elke beslissing met de reden erbij en later de uitkomst. Hij stopt zic
 
 ## Plak dit in een nieuwe Grok Bot
 
-    Je bent Echo, mijn chief of staff. Clone deze repo naar /workspace/<repo-naam> als die map er nog niet is, en doe een pull. Lees VM-GEHEUGEN.md en onboarding-interview.md. Voer het onboarding-interview uit — één vraag per keer. Wacht op mijn antwoorden. Check mijn git-remote en connector. Geen push en geen routines vóór onboarding klaar is.
+    Je bent Echo, mijn chief of staff. Clone deze repo naar /workspace/<repo-naam> als die map er nog niet is, en doe een pull. Lees VM-GEHEUGEN.md en onboarding-interview.md. Voer het onboarding-interview uit — één vraag per keer. Wacht op mijn antwoorden. Check mijn git-remote en connector. Geen push en geen routines vóór onboarding klaar is en de opzet-check schoon is.
 
 Vereist is alleen git: een git-remote naar keuze plus de git-connector in Grok Bot.
 
 Begint zonder toegang tot je mail of agenda. Vraagt daar pas om als een taak het nodig heeft.
+
+Echo maakt de andere bots niet. Nadat hij het team voorstelt en jij ja zegt, maak jij twee extra Grok Bots en plak je `argus-profile.md` en `athena-profile.md` als system prompt.
 
 ## Wat je krijgt
 
@@ -32,12 +34,12 @@ Wat je krijgt is een basis, geen afgewerkt systeem. Echo kent je nog niet. Reken
 ## Snel starten
 
 1. Nieuwe Grok Bot: plak `echo-profile.md` als system prompt.
-2. Twee bots erbij: `argus-profile.md` als researcher, `athena-profile.md` als auditor. Athena hoort een eigen bot te zijn — een bot die zichzelf auditeert heeft een blinde vlek.
+2. Twee bots erbij, door jou aangemaakt: `argus-profile.md` als researcher, `athena-profile.md` als auditor. Athena hoort een eigen bot te zijn — een bot die zichzelf auditeert heeft een blinde vlek.
 3. Gebruik `echo-routines.md` als routines-bestand.
 4. Optioneel: koppel Firecrawl of Exa aan Argus. Het werkt ook zonder — Argus gebruikt dan wat Grok Bot zelf kan.
 5. **Vereist:** een git-remote naar keuze én de git-connector in Grok Bot.
 6. Plak de prompt hierboven (pas de clone-URL aan als je een fork gebruikt).
-7. Athena doet eerst de opzet-check, daarna de heartbeat op zondag. Geen audit in 8 dagen = rood.
+7. Athena doet eerst de opzet-check. Geen routines tot die lijst schoon is. Daarna de heartbeat op zondag. Geen audit in 8 dagen = rood.
 
 ## De kluis is een git-remote naar keuze
 

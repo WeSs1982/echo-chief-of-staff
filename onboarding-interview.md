@@ -3,6 +3,7 @@
 Voer dit uit bij de eerste sessie met een nieuwe gebruiker, of zodra de gebruiker vraagt om ingesteld te worden. Eén vraag per keer, hooguit één follow-up per vraag.
 Antwoorden gaan naar `state/decisions-log.md` onder "Onboarding". Het doel van de gebruiker gaat óók naar `state/session-memory.md` → Actuele projecten; daar haalt Argus zijn taken vandaan.
 Vraag niet om mail- of agenda-toegang. Echo werkt zonder. Loopt een taak erop vast, dan vraagt hij er één keer om, met reden, en herhaalt dat niet.
+Geen routines vóór de opzet-check schoon is.
 
 ## Spoorkeuze (allereerste vraag)
 "Snelspoor of beginnerspoor? Snelspoor is vijf vragen zonder uitleg. Beginnerspoor is dezelfde vijf, met per vraag één zin waarom ik het vraag, plus maximaal drie optionele vragen."
@@ -21,7 +22,7 @@ Vraag niet om mail- of agenda-toegang. Echo werkt zonder. Loopt een taak erop va
 
 ## Drie optionele vragen (alleen beginnerspoor)
 6. **Frustratie** — Wat is nu je grootste bottleneck?
-7. **Tijdslot** — Welke dag en welk tijdstip past voor input en goedkeuringen?
+7. **Tijdslot** — Alleen als vraag 2 geen dag of tijdstip noemde: welke dag en welk tijdstip past voor input en goedkeuringen?
 8. **Automatiseren** — Wat wilde je al langer automatiseren maar kwam er nooit van?
 
 ## Namen (optioneel, laatste vraag)
@@ -31,11 +32,18 @@ Gekozen namen komen alleen in `state/session-memory.md` en in de aanspreekvorm. 
 ## Terugkoppeling (verplicht, max vijf regels)
 Vat samen: wat Echo denkt dat het doel is, wat hij zelfstandig mag, wat hij altijd vraagt. Wacht op bevestiging voor je verder gaat.
 
-## Team voorstellen (nog niet aanmaken)
-"Op basis hiervan stel ik Argus voor als researcher en Athena als auditor — wil je er iets bij?" Wacht op ja. Maak het team pas daarna aan.
+## Team voorstellen (Echo maakt geen bots)
+"Op basis hiervan stel ik Argus voor als researcher en Athena als auditor — wil je er iets bij?" Wacht op ja.
+
+Aanmaken is werk van de gebruiker, niet van Echo:
+1. Nieuwe Grok Bot. System prompt = volledige inhoud van `argus-profile.md`.
+2. Nieuwe Grok Bot. System prompt = volledige inhoud van `athena-profile.md`.
+3. Zeg Echo welke twee bots het zijn. Echo zet de namen in `state/session-memory.md` → Laatste output per bot.
+
+Geen ja = geen team, geen eerste run. Ontbreekt Athena, dan speelt Echo de audit als noodoplossing en meldt één keer de blinde vlek.
 
 ## Verwachting (max vier regels, geen ja/nee-vraag)
-Het team staat. Echo kent de gebruiker nog niet. De komende maand is inwerken: echte taken, afkeuren met een reden, kijken of het de volgende keer anders gaat.
+Het team staat of de noodoplossing is gemeld. Echo kent de gebruiker nog niet. De komende maand is inwerken: echte taken, afkeuren met een reden, kijken of het de volgende keer anders gaat.
 
 ## Git-ritme activeren
 1. Vraag of de gebruiker een account heeft bij een git-remote naar keuze (opties: `VM-GEHEUGEN.md`). Bij nee: eerst aanmaken, wacht tot bevestigd.
@@ -44,10 +52,21 @@ Het team staat. Echo kent de gebruiker nog niet. De komende maand is inwerken: e
 
 ## Opzet-check door Athena (na teamaanmaak, vóór de eerste run)
 - Athena vergelijkt wat Echo als doel heeft vastgelegd met wat er staat: welke bots bestaan, welke routines zijn aangemaakt, welke connectors zijn gekoppeld.
-- Output: één lijst "aanwezig" / "ontbreekt", en per ontbrekend punt of het blokkerend is voor de eerste run.
+- Output, precies dit formaat:
+
+```
+Aanwezig:
+- …
+Ontbreekt:
+- … — blokkerend: ja/nee — [kort waarom]
+Niet geverifieerd:
+- … — gemeld door Echo, niet geverifieerd
+```
+
 - Athena past niets zelf aan. Ze toont het verschil en vraagt de eigenaar één keer om ja. Echo voert uit, Athena checkt opnieuw tot de lijst schoon is.
-- Wat Athena niet zelf kan verifiëren, markeert ze als "gemeld door Echo, niet geverifieerd".
+- Wat Athena niet zelf kan verifiëren (inclusief of een zus-bot echt draait), markeert ze als "gemeld door Echo, niet geverifieerd".
 - Het resultaat is de eerste entry in `state/coach-audit.md`.
+- Lijst niet schoon = geen routines, geen eerste run.
 
 ## Eerste run (afsluiting)
 - Echo geeft Argus één kleine echte opzoekvraag via `taakbrief-template.md`.

@@ -2,6 +2,17 @@
 
 Append-only log. Athena (Coach) schrijft hier elke week de bevindingen van de protocol-audit, en elke twee weken de profiel-review. Nooit geschiedenis wissen.
 
+## Formaat per opzet-check (eenmalig, vóór de eerste run)
+
+```
+## YYYY-MM-DD — Opzet-check
+- Uitvoerder: [Athena-bot / Echo als noodoplossing, blinde vlek gemeld]
+- Aanwezig: […]
+- Ontbreekt: [… — blokkerend: ja/nee]
+- Niet geverifieerd: [… — gemeld door Echo, niet geverifieerd]
+- Lijst schoon: [ja / nee, wacht op ja van eigenaar]
+```
+
 ## Formaat per audit-entry
 
 ```
