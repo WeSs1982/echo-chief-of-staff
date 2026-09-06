@@ -61,6 +61,13 @@ Geen kaartje = de run telt niet.
 VM weg → opnieuw clonen, daarna pull. De remote is de back-up.
 Een stilgevallen bot meldt zijn eigen stilte niet — de externe zondagscheck in `echo-routines.md` is het vangnet.
 
+## Instructiebudget (canoniek)
+
+- Wat elke run wordt geladen — `echo-profile.md`, `echo-routines.md`, `VM-GEHEUGEN.md`, `argus-profile.md`, `athena-profile.md` — blijft samen onder **350 regels**. Stand: 254.
+- `onboarding-interview.md` valt buiten het budget en heeft geen grens. Dat bestand wordt alleen bij het opzetten gelezen, niet elke run.
+- Waarom de grens bestaat: langere instructieblokken worden slechter opgevolgd. Het gaat om aandacht, niet om contextruimte — het pást makkelijk, maar het wordt niet beter nageleefd.
+- Boven de grens: snoei in formuleringen en herhaling, nooit in regels, grenzen, triggers, done of fail.
+
 ## Token-efficiëntie (canoniek — geldt voor Echo, Argus en Athena)
 
 - Compacte velden, batch-logging, geen HTML, geen kleurcodes. Alleen platte markdown of tabellen.
