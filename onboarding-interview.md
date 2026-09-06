@@ -1,70 +1,56 @@
 # Onboarding-interview
 
-Voer dit interview uit bij de eerste sessie met een nieuwe gebruiker, of zodra de gebruiker vraagt om ingesteld te worden. Stel de vragen één voor één. Na elke vraag: luister, stel één of twee gerichte follow-ups, en noteer de antwoorden. Hoe uitgebreider iemand antwoordt, hoe beter de routines worden.
+Voer dit uit bij de eerste sessie met een nieuwe gebruiker, of zodra de gebruiker vraagt om ingesteld te worden. Eén vraag per keer, hooguit één follow-up per vraag.
+Antwoorden gaan naar `state/decisions-log.md` onder "Onboarding". Het doel van de gebruiker gaat óók naar `state/session-memory.md` → Actuele projecten; daar haalt Argus zijn taken vandaan.
+Vraag niet om mail- of agenda-toegang. Echo werkt zonder. Loopt een taak erop vast, dan vraagt hij er één keer om, met reden, en herhaalt dat niet.
 
-Sla de antwoorden op in `state/decisions-log.md` onder het kopje "Onboarding". Gebruik ze om routines, prioriteiten en escalatie-regels aan te passen. Vraag nooit alles in één keer — één vraag per keer, met ruimte voor doorvragen.
+## Spoorkeuze (allereerste vraag)
+"Snelspoor of beginnerspoor? Snelspoor is vijf vragen zonder uitleg. Beginnerspoor is dezelfde vijf, met per vraag één zin waarom ik het vraag, plus maximaal drie optionele vragen."
 
-## Vraag 1 — Doel
-Wat is je belangrijkste taak of doel waar je Echo voor wilt inzetten?
+## De vijf kernvragen
+1. **Doel** — Waar wil je Echo voor inzetten?
+   *(beginnerspoor: hieruit volgt wat Argus onderzoekt en wat bovenaan je prioriteitenlijst komt.)*
+2. **Tijd** — Hoeveel uur per week heb je om te controleren en goed te keuren, en op welke momenten?
+   *(bepaalt hoe vaak Echo je stoort en hoe lang hij op een ja mag wachten.)*
+3. **Autonomie** — Wat mag Echo zelf beslissen, en waar houd je altijd de eindbeslissing?
+   *(dit wordt de escalatiegrens; zonder dit vraagt Echo te veel of te weinig.)*
+4. **Overzicht** — Wat wil je wekelijks terugzien: cijfers, status, of alleen de uitzonderingen?
+   *(bepaalt de vorm van de wekelijkse samenvatting en wanneer je een melding krijgt.)*
+5. **Tools en connectors** — Welke tools en connectors mag Echo gebruiken?
+   *(zonder git-connector is er geen geheugen; de rest is optioneel.)*
 
-Follow-ups:
-- Hoeveel tijd kost die taak je nu per week?
-- Wat gaat er het vaakst mis of kost het meeste gedoe?
+## Drie optionele vragen (alleen beginnerspoor)
+6. **Frustratie** — Wat is nu je grootste bottleneck?
+7. **Tijdslot** — Welke dag en welk tijdstip past voor input en goedkeuringen?
+8. **Automatiseren** — Wat wilde je al langer automatiseren maar kwam er nooit van?
 
-## Vraag 2 — Tijd en bereikbaarheid
-Hoeveel uur per week heb je echt beschikbaar om Echo te controleren en goedkeuringen te geven?
+## Namen (optioneel, laatste vraag)
+"Standaard heten de bots Echo, Argus en Athena. Wil je ze anders noemen?" Geen antwoord = standaard.
+Gekozen namen komen alleen in `state/session-memory.md` en in de aanspreekvorm. Hernoem nooit bestanden of verwijzingen in bestanden op basis van een gekozen naam.
 
-Follow-ups:
-- Op welke momenten van de dag ben je bereikbaar?
-- Wil je dat hij je alleen 's avonds lastigvalt, of ook tussendoor?
+## Terugkoppeling (verplicht, max vijf regels)
+Vat samen: wat Echo denkt dat het doel is, wat hij zelfstandig mag, wat hij altijd vraagt. Wacht op bevestiging voor je verder gaat.
 
-## Vraag 3 — Controle en autonomie
-Wat mag Echo zelf beslissen zonder jou te vragen, en waar wil je altijd de eindbeslissing over houden?
+## Team voorstellen (nog niet aanmaken)
+"Op basis hiervan stel ik Argus voor als researcher en Athena als auditor — wil je er iets bij?" Wacht op ja. Maak het team pas daarna aan.
 
-Follow-ups:
-- Geef een voorbeeld van iets waar je liever zelf de controle over houdt, ook als het langer duurt.
-- Is er iets wat hij meteen mag uitvoeren zodra hij het ziet?
+## Verwachting (max vier regels, geen ja/nee-vraag)
+Het team staat. Echo kent de gebruiker nog niet. De komende maand is inwerken: echte taken, afkeuren met een reden, kijken of het de volgende keer anders gaat.
 
-## Vraag 4 — Overzicht
-Wat wil je elke week terugzien in je overzicht — cijfers, status, of juist alleen de uitzonderingen?
+## Git-ritme activeren
+1. Vraag of de gebruiker een account heeft bij een git-remote naar keuze (opties: `VM-GEHEUGEN.md`). Bij nee: eerst aanmaken, wacht tot bevestigd.
+2. Vraag of de git-connector actief is in de Grok Bot-instellingen. Bij nee: eerst activeren — zonder connector kan Echo niet pullen of pushen.
+3. Clone de repo naar `/workspace/<repo-naam>` als die map er nog niet is. Bevestig: "Map staat klaar, pull/push werkt."
 
-Follow-ups:
-- Als er iets misgaat, wil je meteen een melding of pas in het wekelijkse rapport?
-- Welke drie dingen mogen nooit ontbreken in je weekoverzicht?
+## Opzet-check door Athena (na teamaanmaak, vóór de eerste run)
+- Athena vergelijkt wat Echo als doel heeft vastgelegd met wat er staat: welke bots bestaan, welke routines zijn aangemaakt, welke connectors zijn gekoppeld.
+- Output: één lijst "aanwezig" / "ontbreekt", en per ontbrekend punt of het blokkerend is voor de eerste run.
+- Athena past niets zelf aan. Ze toont het verschil en vraagt de eigenaar één keer om ja. Echo voert uit, Athena checkt opnieuw tot de lijst schoon is.
+- Wat Athena niet zelf kan verifiëren, markeert ze als "gemeld door Echo, niet geverifieerd".
+- Het resultaat is de eerste entry in `state/coach-audit.md`.
 
-## Vraag 5 — Frustratie
-Wat is je grootste frustratie of bottleneck in je huidige workflow?
-
-Follow-ups:
-- Als Echo dat morgen oplost, wat is dan het eerste wat je merkt — minder stress, meer tijd, of iets anders?
-- Is er iets wat je al lang wilt automatiseren maar nooit tijd voor had?
-
-## Vraag 6 — Routine-check (verplicht, vóór het afronden)
-Na de bovenstaande vragen: doorloop de repo en controleer of de drie kernroutines aanwezig en gevuld zijn in `echo-routines.md`:
-
-1. **Dagelijkse prioriteiten** — eerste chat van de dag of op verzoek.
-2. **Wekelijkse samenvatting** — zondag of op verzoek.
-3. **Risico-log check** — begin van elke sessie (kort) en zondag (volledig).
-
-Check ook of `VM-GEHEUGEN.md` het pull/push-ritme beschrijft en of de state-mappen (`session-memory`, `decisions-log`, `risk-log`, `locks`, `session-card`, `coach-audit`) bestaan.
-
-- Als een routine ontbreekt of leeg is: maak hem aan met de minimale set die de pijplijn nodig heeft, log het in `state/decisions-log.md`, en meld het kort.
-- Als alles aanwezig is: bevestig dat de basis compleet is.
-- Eindig met: "De drie routines staan, het geheugen werkt. Wil je ze nu meteen aanpassen aan jouw pijplijn, of later?"
-
-## Vraag 7 — Tijdslot voor input (laatste vraag)
-Op welke dag en welk tijdstip heb je tijd om even te kijken, input te geven en goedkeuringen te verstrekken — bijvoorbeeld voor de wekelijkse samenvatting of bij escalaties?
-
-Follow-ups:
-- Is dat vast (elke week hetzelfde moment) of flexibel?
-- Wil je een herinnering of melding op dat moment?
-- Wat doe je als je dat moment mist — mag Echo dan zelfstandig doorgaan binnen zijn grenzen?
-
-## Na het interview (verplicht, in deze volgorde)
-1. Vat de antwoorden kort samen en bevestig ze met de gebruiker.
-2. Pas je routines en escalatie-regels aan op basis van de antwoorden.
-3. Log de onboarding in `state/decisions-log.md`.
-4. **GitHub-account:** vraag of de gebruiker een GitHub-account heeft. Bij nee: geef het aanmeldlinkje https://github.com/signup en zeg: maak gratis een account aan, dat is de kluis. Wacht tot bevestigd.
-5. **GitHub-connector:** vraag of de GitHub-connector in de Grok Bot-instellingen actief is. Bij nee: activeer die eerst — zonder connector kan Echo niet pullen of pushen. Wacht tot bevestigd.
-6. **Git-ritme activeren:** lees `VM-GEHEUGEN.md`. Clone de repo naar `/workspace/echo-chief-of-staff` als die map er nog niet is. Bevestig aan de gebruiker: "Map staat klaar, pull/push werkt." Zonder deze stap is er geen persistent geheugen.
-7. Begin daarna pas met de dagelijkse routines.
+## Eerste run (afsluiting)
+- Echo geeft Argus één kleine echte opzoekvraag via `taakbrief-template.md`.
+- De gebruiker keurt één bron af met een reden.
+- Zo ziet die in tien minuten een taakbrief ontstaan, een regel in `state/rejected-sources.md`, een regel in `state/decisions-log.md` en een session-card.
+- Echo sluit af met de vraag om de eerste echte taak. De eerste wekelijkse Athena-audit komt de zondag erna.

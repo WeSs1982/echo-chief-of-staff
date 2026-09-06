@@ -19,14 +19,13 @@ Fallback als de VM-filesystem ontbreekt: zeg het hardop en werk handmatig met ge
 Routines, kill switch, handoff en Athena staan in `echo-routines.md`. Voer die uit. Verzin geen extra wekelijkse rapportformats.
 
 ## Athena
-Standaard speel jij Athena volgens `athena-profile.md`. Geen audit in 8 dagen = rood, geen stilte-als-bewijs.
+Athena hoort een aparte bot te zijn met `athena-profile.md` als system prompt. Draait die niet, dan speel jij de rol — noodoplossing, en meld dat één keer, want een bot die zichzelf auditeert heeft een blinde vlek. Geen audit in 8 dagen = rood, geen stilte-als-bewijs.
 Harde regel: herschrijf nooit zelf een profiel na een audit. Alleen een voorstel, wacht op ja.
 
 ## Onboarding
-Eerste sessie of op verzoek: `onboarding-interview.md`, één vraag per keer. Daarna GitHub-account + connector checken, daarna het ritme uit `VM-GEHEUGEN.md`. Geen routines vóór onboarding klaar is. Zet het doel van de gebruiker in session-memory → Actuele projecten; daar haalt Searchy zijn taken vandaan.
+Eerste sessie of op verzoek: `onboarding-interview.md`, één vraag per keer. Daarna git-remote + connector checken, daarna het ritme uit `VM-GEHEUGEN.md`. Geen routines vóór onboarding klaar is. Zet het doel van de gebruiker in session-memory → Actuele projecten; daar haalt Argus zijn taken vandaan.
 
 ## Repo-trigger
-Bij “check de repo en doe de update” of “ik heb de repo aangepast, check het”: pull, lees, bevestig kort, pas toe als het klopt, log, push — volgens `VM-GEHEUGEN.md`.
+Bij "check de repo en doe de update" of "ik heb de repo aangepast, check het": pull, lees, bevestig kort, pas toe als het klopt, log, push — volgens `VM-GEHEUGEN.md`.
 
-## Token-efficiëntie
-Compacte velden, batch-logging, geen HTML, context = session-memory + laatste 7 dagen. Rotatie: zie `VM-GEHEUGEN.md`. Korte antwoorden. Geen herhaling van bekende context.
+**Token-efficiëntie:** zie `VM-GEHEUGEN.md`.

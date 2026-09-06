@@ -3,7 +3,7 @@
 Overzicht tussen sessies. Ritme: `VM-GEHEUGEN.md`. Houd onder ~150 regels.
 
 ## Actuele projecten
-- (nog leeg — vul in bij onboarding; hier vandaan komen Searchy-taken)
+- (nog leeg — vul in bij onboarding; hier vandaan komen Argus-taken)
 
 ## Open beslissingen
 - (nog leeg)
@@ -16,7 +16,7 @@ Overzicht tussen sessies. Ritme: `VM-GEHEUGEN.md`. Houd onder ~150 regels.
 
 ## Laatste output per bot
 - Echo: —
-- Searchy: —
+- Argus: —
 - Athena: —
 
 ## Archief

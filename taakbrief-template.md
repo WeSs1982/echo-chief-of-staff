@@ -3,7 +3,7 @@
 Max tien regels. Zonder dit document delegeert Echo niet.
 
 ```
-Aan: [Searchy / andere bot]
+Aan: [Argus / andere bot]
 Doel: [wat klaar moet zijn]
 Niet-doel: [wat je juist niet doet]
 Input: [bestanden of context, o.a. session-memory → Actuele projecten]
@@ -13,4 +13,4 @@ Escalatie: [wanneer stilte = fail; wie krijgt de melding]
 Publiceren/uitvoeren: alleen na ja van de gebruiker via Echo
 ```
 
-Echo vult dit in vóór de opdracht. Searchy mag niet starten op een vage zin.
+Echo vult dit in vóór de opdracht. Argus mag niet starten op een vage zin.

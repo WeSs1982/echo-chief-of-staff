@@ -5,7 +5,7 @@ Bestanden in deze map. Het ritme zelf staat alleen in `VM-GEHEUGEN.md`. Niet hie
 - `session-memory.md` — overzicht + `## Archief`
 - `decisions-log.md` — beslissingen
 - `risk-log.md` — risico's / kill switch
-- `rejected-sources.md` — afkeuringen (Echo én Searchy lezen dit)
+- `rejected-sources.md` — afkeuringen (Echo én Argus lezen dit)
 - `coach-audit.md` — Athena
 - `locks.md` — actieve locks
 - `session-card.md` — bewijs per run

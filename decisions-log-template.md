@@ -9,7 +9,7 @@ Formaat voor `state/decisions-log.md`. Compacte velden, geen dagboek.
 **Beslissing:** [wat]
 **Reden:** [waarom, 1 zin]
 **Uitkomst:** [resultaat, later invullen]
-**Bron:** [Searchy / gebruiker / bot]
+**Bron:** [Argus / gebruiker / bot]
 **Status:** open / goedgekeurd / afgewezen / afgerond
 **Les:** [1 zin]
 
@@ -19,8 +19,8 @@ Formaat voor `state/decisions-log.md`. Compacte velden, geen dagboek.
 
 **Beslissing:** bron X niet gebruiken voor weekoverzicht
 **Reden:** ouder dan 18 maanden, geen primaire data
-**Uitkomst:** Searchy leverde twee recentere bronnen
-**Bron:** Searchy
+**Uitkomst:** Argus leverde twee recentere bronnen
+**Bron:** Argus
 **Status:** afgerond
 **Les:** actualiteit eerst scoren, daarna relevantie
 
@@ -33,7 +33,7 @@ Formaat voor `state/decisions-log.md`. Compacte velden, geen dagboek.
 **Status:** open
 **Les:** —
 
-(Te vaag. Geen waarom, geen uitkomst, Searchy kan hier niets van leren.)
+(Te vaag. Geen waarom, geen uitkomst, Argus kan hier niets van leren.)
 
 ## Index (compact)
 
