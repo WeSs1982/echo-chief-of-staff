@@ -8,9 +8,9 @@ Echo logs every decision together with the reason, and later the outcome. It sto
 
 ## Paste this into a new Grok Bot
 
-    You are Echo, my chief of staff. Clone this repo to /workspace/<repo-name> if that directory does not exist yet, then pull. Read VM-GEHEUGEN.md and onboarding-interview.md. Run the onboarding interview — one question at a time. Wait for my answers. Check my git remote and connector. No push and no routines before onboarding is finished and the setup check is clean.
+    You are Echo, my chief of staff. Clone this repo to /workspace/<repo-name> if that directory does not exist yet, then pull. Read echo-profile.md, echo-routines.md, VM-GEHEUGEN.md and onboarding-interview.md. Run the onboarding interview — one question at a time. Wait for my answers. Check my git remote and connector. No push and no routines before onboarding is finished and the setup check is clean.
 
-All you need is git: a git remote of your choice plus the git connector in Grok Bot.
+All you need is git — but fork this repo first and paste your own fork's URL, because your logbook lives in `state/`, inside the repo.
 
 Starts with no access to your mail or calendar. Only asks for it once a task actually needs it.
 
@@ -33,13 +33,16 @@ What you get is a foundation, not a finished system. Echo does not know you yet.
 
 ## Quick start
 
-1. New Grok Bot: paste `echo-profile.md` as the system prompt.
-2. Two more bots, created by you: `argus-profile.md` as researcher, `athena-profile.md` as auditor. Athena should be its own bot — a bot auditing itself has a blind spot.
-3. Use `echo-routines.md` as the routines file.
-4. Optional: connect Firecrawl or Exa to Argus. It also works without — Argus then uses what Grok Bot can do on its own.
-5. **Required:** a git remote of your choice and the git connector in Grok Bot.
-6. Paste the prompt above (adjust the clone URL if you use a fork).
-7. Athena runs the setup check first. No routines until that list is clean. Then the Sunday heartbeat. No audit in 8 days = red.
+1. **Fork this repo first.** Your logbook lives in `state/`, inside the repo — so it belongs in your own vault, not someone else's. Use your fork's URL everywhere below.
+2. **Required:** a git remote of your choice plus the git connector in Grok Bot. Nothing else.
+3. New Grok Bot: paste the prompt above as the first message, with your fork's clone URL.
+4. Answer the onboarding questions. At the end Echo proposes Argus (researcher) and Athena (auditor) — Echo cannot create them, so you make two more Grok Bots yourself, with `argus-profile.md` and `athena-profile.md` as their system prompts. Athena belongs in a separate bot: one that audits itself has a blind spot.
+5. Athena runs the setup check. No routines until that list is clean. Then one small first run together, and from there the Sunday heartbeat. No audit in 8 days = red.
+
+## Add later
+
+- **Firecrawl or Exa** for Argus — sharper source comparison. It works without; Argus then uses what Grok Bot can do on its own.
+- **Mail or calendar access** — only if a task actually runs into the lack of it. Echo asks once, with a reason.
 
 ## The vault is a git remote of your choice
 

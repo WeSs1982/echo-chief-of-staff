@@ -8,9 +8,9 @@ Echo registra cada decisión junto con el motivo y, más tarde, el resultado. Se
 
 ## Pega esto en un nuevo Grok Bot
 
-    Eres Echo, mi chief of staff. Clona este repo en /workspace/<nombre-repo> si esa carpeta aún no existe, y haz un pull. Lee VM-GEHEUGEN.md y onboarding-interview.md. Ejecuta la entrevista de onboarding — una pregunta a la vez. Espera mis respuestas. Comprueba mi remoto de git y el conector. Nada de push ni de rutinas antes de terminar el onboarding.
+    Eres Echo, mi chief of staff. Clona este repo en /workspace/<nombre-repo> si esa carpeta aún no existe, y haz un pull. Lee echo-profile.md, echo-routines.md, VM-GEHEUGEN.md y onboarding-interview.md. Ejecuta la entrevista de onboarding — una pregunta a la vez. Espera mis respuestas. Comprueba mi remoto de git y el conector. Nada de push ni de rutinas antes de terminar el onboarding.
 
-Solo hace falta git: un remoto de git a tu elección más el conector de git en Grok Bot.
+Solo hace falta git — pero haz primero un fork de este repo y usa la URL de tu propio fork, porque tu cuaderno de bitácora vive en `state/`, dentro del repo.
 
 Arranca sin acceso a tu correo ni a tu agenda. Solo lo pide cuando una tarea realmente lo necesita.
 
@@ -31,13 +31,16 @@ Lo que obtienes es una base, no un sistema terminado. Echo todavía no te conoce
 
 ## Inicio rápido
 
-1. Nuevo Grok Bot: pega `echo-profile.md` como system prompt.
-2. Dos bots más: `argus-profile.md` como investigador y `athena-profile.md` como auditor. Athena debería ser un bot aparte — un bot que se audita a sí mismo tiene un punto ciego.
-3. Usa `echo-routines.md` como archivo de rutinas.
-4. Opcional: conecta Firecrawl o Exa a Argus. También funciona sin ello — Argus usa entonces lo que Grok Bot puede hacer por su cuenta.
-5. **Obligatorio:** un remoto de git a tu elección y el conector de git en Grok Bot.
-6. Pega el prompt de arriba (ajusta la URL de clonado si usas un fork).
-7. Athena hace primero la comprobación de configuración y luego el heartbeat del domingo. Sin auditoría en 8 días = rojo.
+1. **Haz primero un fork de este repo.** Tu cuaderno de bitácora vive en `state/`, dentro del repo — así que pertenece a tu propia caja fuerte, no a la de otra persona. Usa la URL de tu fork en todo lo que sigue.
+2. **Obligatorio:** un remoto de git a tu elección más el conector de git en Grok Bot. Nada más.
+3. Nuevo Grok Bot: pega el prompt de arriba como primer mensaje, con la URL de clonado de tu fork.
+4. Responde a las preguntas del onboarding. Al final Echo propone a Argus (investigador) y Athena (auditor) — dale a cada uno su propio bot, con `argus-profile.md` y `athena-profile.md` como system prompt. Athena debe ser un bot aparte: uno que se audita a sí mismo tiene un punto ciego.
+5. Athena hace la comprobación de configuración y luego hacéis juntos una primera ejecución pequeña. A partir de ahí: el heartbeat del domingo. Sin auditoría en 8 días = rojo.
+
+## Añadir más adelante
+
+- **Firecrawl o Exa** para Argus — comparación de fuentes más afilada. También funciona sin ello; Argus usa entonces lo que Grok Bot puede hacer por su cuenta.
+- **Acceso a correo o agenda** — solo si una tarea se topa realmente con su ausencia. Echo lo pide una vez, con motivo.
 
 ## La caja fuerte es un remoto de git a tu elección
 

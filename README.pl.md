@@ -8,9 +8,9 @@ Echo zapisuje każdą decyzję razem z powodem, a później z rezultatem. Zatrzy
 
 ## Wklej to do nowego Grok Bota
 
-    Jesteś Echo, moim chief of staff. Sklonuj to repo do /workspace/<nazwa-repo>, jeśli tego katalogu jeszcze nie ma, i zrób pull. Przeczytaj VM-GEHEUGEN.md oraz onboarding-interview.md. Przeprowadź wywiad onboardingowy — jedno pytanie naraz. Czekaj na moje odpowiedzi. Sprawdź moje zdalne repozytorium git i konektor. Żadnego pusha ani rutyn przed zakończeniem onboardingu.
+    Jesteś Echo, moim chief of staff. Sklonuj to repo do /workspace/<nazwa-repo>, jeśli tego katalogu jeszcze nie ma, i zrób pull. Przeczytaj echo-profile.md, echo-routines.md, VM-GEHEUGEN.md oraz onboarding-interview.md. Przeprowadź wywiad onboardingowy — jedno pytanie naraz. Czekaj na moje odpowiedzi. Sprawdź moje zdalne repozytorium git i konektor. Żadnego pusha ani rutyn przed zakończeniem onboardingu.
 
-Potrzebny jest tylko git: wybrane przez ciebie zdalne repozytorium plus konektor gita w Grok Bocie.
+Potrzebny jest tylko git — ale najpierw zrób forka tego repo i użyj adresu własnego forka, bo twój dziennik znajduje się w `state/`, wewnątrz repozytorium.
 
 Startuje bez dostępu do twojej poczty i kalendarza. Poprosi o niego dopiero wtedy, gdy jakieś zadanie naprawdę tego wymaga.
 
@@ -31,13 +31,16 @@ To, co dostajesz, jest podstawą, a nie gotowym systemem. Echo jeszcze cię nie 
 
 ## Szybki start
 
-1. Nowy Grok Bot: wklej `echo-profile.md` jako system prompt.
-2. Dwa kolejne boty: `argus-profile.md` jako researcher, `athena-profile.md` jako audytor. Athena powinna być osobnym botem — bot audytujący sam siebie ma martwe pole.
-3. Użyj `echo-routines.md` jako pliku z rutynami.
-4. Opcjonalnie: podłącz Firecrawl albo Exa do Argusa. Działa też bez tego — Argus korzysta wtedy z tego, co Grok Bot potrafi sam.
-5. **Wymagane:** wybrane zdalne repozytorium git oraz konektor gita w Grok Bocie.
-6. Wklej prompt powyżej (dostosuj URL do klonowania, jeśli używasz forka).
-7. Athena robi najpierw kontrolę konfiguracji, potem heartbeat w niedzielę. Brak audytu przez 8 dni = czerwone.
+1. **Najpierw zrób forka tego repo.** Twój dziennik znajduje się w `state/`, wewnątrz repozytorium — należy więc do twojego własnego skarbca, nie cudzego. Poniżej wszędzie używaj adresu swojego forka.
+2. **Wymagane:** wybrane zdalne repozytorium git oraz konektor gita w Grok Bocie. Nic więcej.
+3. Nowy Grok Bot: wklej prompt powyżej jako pierwszą wiadomość, z adresem klonowania swojego forka.
+4. Odpowiedz na pytania onboardingowe. Na końcu Echo proponuje Argusa (researcher) i Athenę (audytor) — daj każdemu osobnego bota, z `argus-profile.md` i `athena-profile.md` jako system prompt. Athena powinna być osobnym botem: taki, który audytuje sam siebie, ma martwe pole.
+5. Athena robi kontrolę konfiguracji, potem robicie razem jeden mały pierwszy przebieg. Od tego momentu: heartbeat w niedzielę. Brak audytu przez 8 dni = czerwone.
+
+## Dodaj później
+
+- **Firecrawl albo Exa** dla Argusa — ostrzejsze porównanie źródeł. Działa też bez tego; Argus korzysta wtedy z tego, co Grok Bot potrafi sam.
+- **Dostęp do poczty lub kalendarza** — tylko jeśli jakieś zadanie naprawdę się o to potknie. Echo poprosi wtedy raz, z uzasadnieniem.
 
 ## Skarbiec to wybrane przez ciebie zdalne repozytorium git
 
