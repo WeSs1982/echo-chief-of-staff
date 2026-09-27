@@ -14,3 +14,5 @@ Append-only. Elke beslissing met reden en uitkomst. Nooit regels verwijderen. Co
 | 2026-09-27 | #show-your-pets + #boom-room onder COMMUNITY (gesynct, Members view/send) | Verzoek Wess | Live, geen posts | done |
 | 2026-09-27 | Argus site-review spiceuphub.com | Verzoek Wess | Goed genoeg; 5 verbeterpunten; Wess gevraagd of opdracht naar Opus mag | open |
 | 2026-09-27 | Logboek-regel: één rij per Spice Up-wijziging (datum, beslissing, reden, uitkomst) | Athena rode vlag; ja van Wess 09:06 | Ingevoerd | done |
+| 2026-09-27 | Athena: profiel-review geschreven in coach-audit.md; voorstel aan WeSs | Tweewekelijkse review | 2 voorstellen (WeSs-logregel in profiel, Spice Werving #server-info); wacht op ja Wess | open |
+| 2026-09-27 | Athena profiel-review: voorstel 1 vastgelegd in WeSs-geheugen (profiel); voorstel 2: Spice Werving ge\u00efnformeerd dat #server-info live is | Regel mag niet wegvallen bij samenvatting; verouderde info | Beide verwerkt | done |
