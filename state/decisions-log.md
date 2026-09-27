@@ -18,3 +18,4 @@ Append-only. Elke beslissing met reden en uitkomst. Nooit regels verwijderen. Co
 | 2026-09-27 | Athena profiel-review: voorstel 1 vastgelegd in WeSs-geheugen (profiel); voorstel 2: Spice Werving ge\u00efnformeerd dat #server-info live is | Regel mag niet wegvallen bij samenvatting; verouderde info | Beide verwerkt | done |
 | 2026-09-27 | Discord-serverwidget uitgezet (Betrokkenheid > Widget server) | Widget toonde online namen publiek; Wess vroeg om uitzetten | widget.json geeft "Widget Disabled" (50004) | done |
 | 2026-09-27 | Member-rol-ID 1552748130846646283 aan Wess gegeven voor ledengedeelte site (Opus, .env) | Toegang ledengedeelte op guildlid + rol Member | ID via Discord API geverifieerd | done |
+| 2026-09-27 | #screenshots (1552745160968765440) uit ARCHIVE terug naar COMMUNITY, rechten gesynct | Galerij-kanaal voor /leden op de site (keuze Wess) | Onder COMMUNITY, gesynct; bot-leestoegang via API gecontroleerd | done |
