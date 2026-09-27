@@ -19,3 +19,4 @@ Append-only. Elke beslissing met reden en uitkomst. Nooit regels verwijderen. Co
 | 2026-09-27 | Discord-serverwidget uitgezet (Betrokkenheid > Widget server) | Widget toonde online namen publiek; Wess vroeg om uitzetten | widget.json geeft "Widget Disabled" (50004) | done |
 | 2026-09-27 | Member-rol-ID 1552748130846646283 aan Wess gegeven voor ledengedeelte site (Opus, .env) | Toegang ledengedeelte op guildlid + rol Member | ID via Discord API geverifieerd | done |
 | 2026-09-27 | #screenshots (1552745160968765440) uit ARCHIVE terug naar COMMUNITY, rechten gesynct | Galerij-kanaal voor /leden op de site (keuze Wess) | Onder COMMUNITY, gesynct; bot-leestoegang via API gecontroleerd | done |
+| 2026-09-27 | Site stap 2 (rol-toegang /leden, wachtkamer, niet-lid-melding) live door Opus | Ledengedeelte achter Discord-login + rol Member | Uitgelogde pagina bereikbaar (curl); test ingelogd door Wess nog open | open |
