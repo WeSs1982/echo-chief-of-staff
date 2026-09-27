@@ -5,3 +5,6 @@ Append-only. Risico's, blokkades, bijna-fouten. Nooit regels verwijderen. Compac
 | Datum | Risico / blokkade | Ernst | Actie | Status |
 |---|---|---|---|---|
 | — | — | — | — | — |
+| 2026-09-25 | Spice-bot offline 04:57–08:13: DISCORD_TOKEN ontbrak in omgeving (11x exit 1), keepalive startte niet opnieuw | Hoog (soft-live-dag) | Token hersteld, keepalive-fix, uurlijkse wachthond-routine | opgelost |
+| 2026-09-27 | Bug bot.py r.123: `remove_name` ongedefinieerd | Laag | Nog fixen | open |
+| 2026-09-27 | Niets start keepalive na reboot van de computer (alleen uurlijkse wachthond vangt het op, max ~1 u uitval) | Middel | Geaccepteerd voorlopig | open |
