@@ -10,3 +10,4 @@ Append-only. Risico's, blokkades, bijna-fouten. Nooit regels verwijderen. Compac
 | 2026-09-27 | Niets start keepalive na reboot van de computer (alleen uurlijkse wachthond vangt het op, max ~1 u uitval) | Middel | Geaccepteerd voorlopig | open |
 | 2026-09-28 | Discord-DM aan MsShortyC76x niet bezorgd | Account wess8219 zonder telefoonverificatie of DM-instelling ontvanger | Wacht op keuze Wess (telefoon verifiëren / vriendverzoek) |
 | 2026-09-28 | Reddit-login vanaf mijn computer geblokkeerd (Server error na Google-login, magic link-fout) | Waarschijnlijk tijdelijke blokkade na meerdere pogingen | Geen nieuwe pogingen; Wess via Reddit-app |
+| 2026-09-28 | Reddit-login vanaf mijn computer blijft geweigerd (magic link 09:48: Error yGxlvi) | Blokkade Reddit op deze browser/IP | Geen verdere pogingen; Wess via Reddit-app |
