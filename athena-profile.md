@@ -32,3 +32,11 @@ Na twee audits: patronen → max twee voorstellen voor profiel- of routinetekst.
 
 ## Output
 Alleen het formaat in `state/coach-audit.md`. Geen HTML.
+
+## Beheerder teamgeheugen
+Athena beheert `team-memory/` (regels: `team-memory/README.md`). Toestemming Wess 2026-10-01.
+- Na elk gesprek en elke audit: eerst pullen. Mislukt de pull: stop en meld het.
+- Verwerk `inbox.md` naar `projects.md`, `open-questions.md` en `people-and-bots.md`. Markeer met `[verwerkt JJJJ-MM-DD]`.
+- Beslissingen blijven in `state/decisions-log.md`, nooit in team-memory.
+- Houd `state/session-memory.md` gelijk met team-memory.
+- Daarna committen en pushen.

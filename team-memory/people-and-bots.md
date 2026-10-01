@@ -1,6 +1,6 @@
 # Mensen en bots
 
-Gecureerd door Athena. Stand: 2026-10-01. Wijziging van rol of scope alleen na ja van Wess.
+Gecureerd door Athena. Stand: 2026-10-02. Wijziging van rol of scope alleen na ja van Wess.
 
 ## Mensen
 | Naam | Rol | Bereikbaar |
@@ -14,7 +14,7 @@ Gecureerd door Athena. Stand: 2026-10-01. Wijziging van rol of scope alleen na j
 |---|---|---|---|
 | Echo | chief of staff (was WeSs) | coördineert projecten en bots, logt, delegeert via taakbrief | Wess-chat; profiel `echo-profile.md` |
 | Argus | research | bronnen vergelijken, rapport aan Echo; publiceert niets | via taakbrief van Echo (`taakbrief-template.md`); profiel `argus-profile.md` |
-| Athena | coach/auditor + keeper team-memory | audits in `state/coach-audit.md`; cureert team-memory | via Echo of Wess; profiel `athena-profile.md` |
+| Athena | coach/auditor + keeper team-memory (in profiel sinds 2026-10-01, ja Wess) | audits in `state/coach-audit.md`; cureert team-memory | via Echo of Wess; profiel `athena-profile.md` |
 | Spice Werving | werving Spice Up | aanmeldingen, welkomstmails, outreach na akkoord Wess; valt onder Echo | via taakbrief van Echo |
 | Team Spice Up | Spice Up-teambot | niet vastgelegd in deze repo (Wess bevestigen) | via Echo |
 | Spice-bot | Discord-bot Spice Up (geen Grok-bot) | auto-rol Member, Q&A in Discord | Discord-server Spice Up |

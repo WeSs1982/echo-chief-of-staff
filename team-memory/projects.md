@@ -1,11 +1,11 @@
 # Projecten — actief
 
-Gecureerd door Athena. Stand: 2026-10-01 (intake Echo). Details en geschiedenis: `state/decisions-log.md`, `state/risk-log.md`.
+Gecureerd door Athena. Stand: 2026-10-02 (intake Echo + audit Athena). Details en geschiedenis: `state/decisions-log.md`, `state/risk-log.md`.
 
 | Project | Status | Eigenaar | Volgende stap |
 |---|---|---|---|
 | Spice Up (Dune Awakening community, Tamarisk-server, Discord, Spice-bot, spiceuphub.com) | live; 5 aanmeldingen afgehandeld | Wess; uitvoering Echo + Spice Werving | go/no-go Wess op 3 aankondigingsconcepten |
-| Echo-stack (deze repo, team-memory) | 22 commits gepusht 2026-10-01; session-memory gevuld; team-memory gestart | Echo; keeper team-memory Athena | Wess beslist over HTML-weekoverzicht zo 4 okt 20:20 |
+| Echo-stack (deze repo, team-memory) | repo in sync met GitHub (0 voor/0 achter, fetch 2026-10-01 23:53); team-memory gestart; keeper-rol in `athena-profile.md` (ja Wess 2026-10-01); audit Athena 2026-10-02 | Echo; keeper team-memory Athena | Wess beslist over weekoverzicht zo 4 okt 20:20 (HTML-agenda vs markdown-regel; geen weekoverzicht-mail in sept.) |
 | Websites kleine zaken (Salon Bloom + markt Almere/Flevoland) | test op bloom-test.spiceuphub.com; repo bloom-site leeg; Argus-rapport niet geleverd | Wess; research Argus | Argus levert rapport (taakbrief `state/taakbrieven/2026-10-01-argus-websites-markt.md`) |
 | Epic Story / Lesmaker | pipeline stil sinds 2026-09-07; Ep2 geblokkeerd tot P0/P1 opgelost | Wess | P0/P1 oplossen, daarna Ep2 |
 | Webdesigner-agent | gepland | Wess (maakt bot aan) | rol + taakbrief vastleggen |
