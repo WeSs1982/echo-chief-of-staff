@@ -37,3 +37,4 @@ Append-only. Elke beslissing met reden en uitkomst. Nooit regels verwijderen. Co
 | 2026-10-01 | WeSs hernoemd naar Echo (chief of staff) en werkt volgens echo-profile.md | Verzoek Wess | Naam/titel aangepast, memory-regel opgeslagen; Argus/Athena/Spice Werving bestonden al | afgehandeld |
 | 2026-10-01 | Spice Werving valt onder Echo | Verzoek Wess | Echo stuurt Werving aan met taakbrieven en controleert het werk | actief |
 | 2026-10-01 | Privé-repo WeSs1982/bloom-site aangemaakt | Elke site eigen repo; Bloom-code stond alleen op pc | Leeg, wacht op push door Claude | open |
+| 2026-10-01 | `team-memory/` aangemaakt (README, projects, decisions-verwijzing, people-and-bots, open-questions, inbox); session-memory + session-card gevuld met stand intake | Gedeeld geheugen voor alle bots, Athena als keeper; verzoek Wess | Bestanden live; keeper-rol staat nog niet in athena-profile.md (voorstel, wacht op ja Wess) | done |
