@@ -42,3 +42,11 @@ Echo, Argus, Athena, Spice Werving, Team Spice Up, en straks Webdesigner-agent e
 ## Relatie met `state/`
 - `state/session-memory.md` blijft Echo's eigen overzicht (ritme in `VM-GEHEUGEN.md`). Team-memory is de gedeelde laag voor alle bots; Athena houdt beide in lijn.
 - `state/` is niet voor andere bots om te herschrijven; zij gebruiken `inbox.md`.
+
+## Compact houden
+- Elk bestand onder ~1.500 woorden; ouder of afgehandeld materiaal samengevat naar `archief.md` (origineel blijft in archief of git-historie).
+- Bots starten met `state/session-memory.md` en team-memory, niet met de volledige historie.
+- Lange taken in losse korte gesprekken, met een korte samenvatting als overdracht.
+- Athena noteert bij elke audit per bot welke bestanden of briefings te lang zijn en stelt een samengevatte versie voor.
+- Richtdoel ~16.000 tokens per gesprek; niet meetbaar, dus alleen een richtlijn.
+- Akkoord Wess 2026-10-02.
