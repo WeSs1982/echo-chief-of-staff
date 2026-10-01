@@ -49,4 +49,5 @@ Echo, Argus, Athena, Spice Werving, Team Spice Up, en straks Webdesigner-agent e
 - Lange taken in losse korte gesprekken, met een korte samenvatting als overdracht.
 - Athena noteert bij elke audit per bot welke bestanden of briefings te lang zijn en stelt een samengevatte versie voor.
 - Richtdoel ~16.000 tokens per gesprek; niet meetbaar, dus alleen een richtlijn.
+- Leesregel: bots lezen alleen de laatste 2 entries van `state/coach-audit.md` en de laatste ~15 rijen van `state/decisions-log.md`; volledige bestanden blijven append-only bewaard (akkoord Wess 2026-10-02 01:15).
 - Akkoord Wess 2026-10-02.
