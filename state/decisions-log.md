@@ -36,3 +36,4 @@ Append-only. Elke beslissing met reden en uitkomst. Nooit regels verwijderen. Co
 | 2026-09-30 | Bugfix bot.py r.123: ongedefinieerde `remove_name` → `old.name` in foutlog bij verwijderen rol Nieuw | Foutlog gaf zelf NameError als remove_roles faalde; verzoek Wess voice 09:04 | Nieuwe test faalt vóór, slaagt na; 45/45 groen; bot herstart 09:07, login OK | done |
 | 2026-10-01 | WeSs hernoemd naar Echo (chief of staff) en werkt volgens echo-profile.md | Verzoek Wess | Naam/titel aangepast, memory-regel opgeslagen; Argus/Athena/Spice Werving bestonden al | afgehandeld |
 | 2026-10-01 | Spice Werving valt onder Echo | Verzoek Wess | Echo stuurt Werving aan met taakbrieven en controleert het werk | actief |
+| 2026-10-01 | Privé-repo WeSs1982/bloom-site aangemaakt | Elke site eigen repo; Bloom-code stond alleen op pc | Leeg, wacht op push door Claude | open |
